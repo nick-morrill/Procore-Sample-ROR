@@ -5541,3 +5541,356 @@ Processing by LoginController#callback as HTML
 Completed 200 OK in 516ms (Views: 53.2ms)
 
 
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:41:34 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 102ms (Views: 98.4ms)
+
+
+Started GET "/login/callback?code=9dcb61b4c90874f5a34a00c4c542630d0ebeee5eed6eaf4854fb03cd035b3b8b" for 127.0.0.1 at 2019-03-19 10:41:36 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9dcb61b4c90874f5a34a00c4c542630d0ebeee5eed6eaf4854fb03cd035b3b8b"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 424ms (Views: 48.1ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:41:50 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 61ms (Views: 57.4ms)
+
+
+Started GET "/login/callback?code=a71fae92511f93d0a9f158f2d79fe36ddada2974dec00ad9abb13c44fc4f9d08" for 127.0.0.1 at 2019-03-19 10:41:51 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"a71fae92511f93d0a9f158f2d79fe36ddada2974dec00ad9abb13c44fc4f9d08"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 416ms (Views: 65.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:43:28 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 67ms (Views: 63.7ms)
+
+
+Started GET "/login/callback?code=5643b356494660c9fcf5e295e66175d905a10e87aa28e31897d2bc2ae8b02dca" for 127.0.0.1 at 2019-03-19 10:43:30 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"5643b356494660c9fcf5e295e66175d905a10e87aa28e31897d2bc2ae8b02dca"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 472ms (Views: 52.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:43:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 57ms (Views: 50.6ms)
+
+
+Started GET "/login/callback?code=9016d06f107ac6363582ed692bcdf2479c980866b64830fe8860c56f31ab76e3" for 127.0.0.1 at 2019-03-19 10:43:38 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9016d06f107ac6363582ed692bcdf2479c980866b64830fe8860c56f31ab76e3"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 411ms (Views: 39.5ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:43:52 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 71.2ms)
+
+
+Started GET "/login/callback?code=58a25e9d009a2f630748a09ff0ecfaeaec35a6ae144e3f707a8d3fc20e154f87" for 127.0.0.1 at 2019-03-19 10:43:53 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"58a25e9d009a2f630748a09ff0ecfaeaec35a6ae144e3f707a8d3fc20e154f87"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 364ms
+
+
+  
+ActionView::Template::Error (String can't be coerced into Integer):
+    12:       <th>Refresh Token </th>
+    13:     </tr>
+    14:   </tr>
+    15:     <td><%= @access_token['access_token'][1..5 + "..."] %></td>
+    16:     <td><%= @access_token['created_at'] %> </td>
+    17:     <td><%= @access_token['expires_in'] %> </td>
+    18:     <td><%= @access_token['refresh_token'][1..5 + "..."] %> </td>
+  
+app/views/login/callback.html.erb:15:in `+'
+app/views/login/callback.html.erb:15:in `_app_views_login_callback_html_erb___1133002314207259879_70116786780120'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:44:15 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 77ms (Views: 74.3ms)
+
+
+Started GET "/login/callback?code=11fbce20479ca34ef3f193bf4186b73f2f1aa67d01fde54ded5ed01bb4c137f7" for 127.0.0.1 at 2019-03-19 10:44:16 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"11fbce20479ca34ef3f193bf4186b73f2f1aa67d01fde54ded5ed01bb4c137f7"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 399ms (Views: 49.0ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:44:35 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 45.4ms)
+
+
+Started GET "/login/callback?code=6464f679ba10275e035fe23eb60115b9e0494f1bd95bbe742415be620a8f995e" for 127.0.0.1 at 2019-03-19 10:44:37 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"6464f679ba10275e035fe23eb60115b9e0494f1bd95bbe742415be620a8f995e"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 483ms (Views: 49.9ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:45:28 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 118ms (Views: 110.1ms)
+
+
+Started GET "/login/callback?code=f9205ed6003888195ab83cd80238f392130fe2857814b6d5f57845d9269dc366" for 127.0.0.1 at 2019-03-19 10:45:29 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"f9205ed6003888195ab83cd80238f392130fe2857814b6d5f57845d9269dc366"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 581ms (Views: 40.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:50:22 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 70ms (Views: 68.3ms)
+
+
+Started GET "/login/callback?code=1fde5fa44ebf52de1aac4cab0427c4588a3ab04139b612e19bbec77bf6950842" for 127.0.0.1 at 2019-03-19 10:50:23 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"1fde5fa44ebf52de1aac4cab0427c4588a3ab04139b612e19bbec77bf6950842"}
+Completed 500 Internal Server Error in 449ms
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/login_controller.rb:31:in `strptime'
+app/controllers/login_controller.rb:31:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:52:41 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 51.3ms)
+
+
+Started GET "/login/callback?code=aea67f3165df8fbd21e030ec7079d24b4000a1124259e031ba1e7aa83130a48a" for 127.0.0.1 at 2019-03-19 10:52:42 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"aea67f3165df8fbd21e030ec7079d24b4000a1124259e031ba1e7aa83130a48a"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 431ms (Views: 49.2ms)
+
+
+Started GET "/login/callback?code=aea67f3165df8fbd21e030ec7079d24b4000a1124259e031ba1e7aa83130a48a" for 127.0.0.1 at 2019-03-19 10:53:02 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"aea67f3165df8fbd21e030ec7079d24b4000a1124259e031ba1e7aa83130a48a"}
+Completed 500 Internal Server Error in 362ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:53:06 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 125ms (Views: 121.9ms)
+
+
+Started GET "/login/callback?code=39c0aeaed6c48052acca27af3edc9b85a554b516ff8d03f0175eba3d77bb0208" for 127.0.0.1 at 2019-03-19 10:53:07 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"39c0aeaed6c48052acca27af3edc9b85a554b516ff8d03f0175eba3d77bb0208"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (354.0ms)
+Completed 500 Internal Server Error in 742ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `token_created_at' for #<#<Class:0x007f8aab647200>:0x007f8aab438810>
+Did you mean?  token_tag):
+     9:     </tr>
+    10:   </tr>
+    11:     <td><%= @access_token['access_token'][1..5 ] + "..." %></td>
+    12:     <td><%= token_created_at %> </td>
+    13:     <td><%= @access_token['expires_in'] %> </td>
+    14:     <td><%= @access_token['refresh_token'][1..5]  + "..." %> </td>
+    15:   </tr>
+  
+app/views/login/callback.html.erb:12:in `_app_views_login_callback_html_erb___1133002314207259879_70116777789060'
+Started GET "/" for 127.0.0.1 at 2019-03-19 12:06:46 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 612ms (Views: 554.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-19 13:31:09 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 282ms (Views: 274.0ms)
+
+
+Started GET "/login/callback?code=9dd15c22f3a334332dfe3c1c052242551bd8ae3bd9c843e2c97326f77120c51a" for 127.0.0.1 at 2019-03-19 13:31:47 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9dd15c22f3a334332dfe3c1c052242551bd8ae3bd9c843e2c97326f77120c51a"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (387.2ms)
+Completed 500 Internal Server Error in 796ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `token_created_at' for #<#<Class:0x007f8aab647200>:0x007f8aabfe09b0>
+Did you mean?  token_tag):
+     9:     </tr>
+    10:   </tr>
+    11:     <td><%= @access_token['access_token'][1..5 ] + "..." %></td>
+    12:     <td><%= token_created_at %> </td>
+    13:     <td><%= @access_token['expires_in'] %> </td>
+    14:     <td><%= @access_token['refresh_token'][1..5]  + "..." %> </td>
+    15:   </tr>
+  
+app/views/login/callback.html.erb:12:in `_app_views_login_callback_html_erb___1133002314207259879_70116783884800'
+Started GET "/" for 127.0.0.1 at 2019-03-19 14:13:52 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 527ms (Views: 484.2ms)
+
+
+Started GET "/login/callback?code=87f3d8a4951e8632403a2f59a5f04784f3fc15bc7ce6c30689f723693b055f61" for 127.0.0.1 at 2019-03-19 14:14:07 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"87f3d8a4951e8632403a2f59a5f04784f3fc15bc7ce6c30689f723693b055f61"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (532.4ms)
+Completed 500 Internal Server Error in 1025ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `token_created_at' for #<#<Class:0x007f8aab647200>:0x007f8ab19a6d28>
+Did you mean?  token_tag):
+     9:     </tr>
+    10:   </tr>
+    11:     <td><%= @access_token['access_token'][1..5 ] + "..." %></td>
+    12:     <td><%= token_created_at %> </td>
+    13:     <td><%= @access_token['expires_in'] %> </td>
+    14:     <td><%= @access_token['refresh_token'][1..5]  + "..." %> </td>
+    15:   </tr>
+  
+app/views/login/callback.html.erb:12:in `_app_views_login_callback_html_erb___1133002314207259879_70116830952380'
+Started GET "/" for 127.0.0.1 at 2019-03-19 14:14:52 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 118ms (Views: 115.6ms)
+
+
+Started GET "/login/callback?code=ebcabea940f1fc7d554286e3ee3e16b555970999c44f98c1f0640e224229341c" for 127.0.0.1 at 2019-03-19 14:14:54 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"ebcabea940f1fc7d554286e3ee3e16b555970999c44f98c1f0640e224229341c"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (364.5ms)
+Completed 500 Internal Server Error in 770ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `token_created_at' for #<#<Class:0x007f8ab193e5e8>:0x007f8ab3000fd8>
+Did you mean?  @token_created_at):
+     9:     </tr>
+    10:   </tr>
+    11:     <td><%= @access_token['access_token'][1..5 ] + "..." %></td>
+    12:     <td><%= token_created_at %> </td>
+    13:     <td><%= @access_token['expires_in'] %> </td>
+    14:     <td><%= @access_token['refresh_token'][1..5]  + "..." %> </td>
+    15:   </tr>
+  
+app/views/login/callback.html.erb:12:in `_app_views_login_callback_html_erb___1133002314207259879_70116842671600'
+Started GET "/" for 127.0.0.1 at 2019-03-19 14:15:18 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 80ms (Views: 77.8ms)
+
+
+Started GET "/login/callback?code=a8eaa7bbbeae160250ab74d9bfcfd04f0110faf3c6afe452d4374862c94eacea" for 127.0.0.1 at 2019-03-19 14:15:20 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"a8eaa7bbbeae160250ab74d9bfcfd04f0110faf3c6afe452d4374862c94eacea"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 478ms (Views: 44.9ms)
+
+
+Started GET "/login/callback?code=a8eaa7bbbeae160250ab74d9bfcfd04f0110faf3c6afe452d4374862c94eacea" for 127.0.0.1 at 2019-03-19 14:15:55 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"a8eaa7bbbeae160250ab74d9bfcfd04f0110faf3c6afe452d4374862c94eacea"}
+Completed 500 Internal Server Error in 352ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-19 14:15:59 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 78ms (Views: 75.3ms)
+
+
+Started GET "/login/callback?code=20868e452954e6d3a884fbc00ca1f66c970848c26280515e6d7ee72ed8b6c853" for 127.0.0.1 at 2019-03-19 14:16:00 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"20868e452954e6d3a884fbc00ca1f66c970848c26280515e6d7ee72ed8b6c853"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1358ms (Views: 55.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-19 14:16:19 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"+IsTDRj84kj6Q8pzATRTAtKw6KbrmIWk84nG6CKm/JjN6XjivsEcHG4yQVgvLOflw9lytc4jUaNNCQFHoNWQlA=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 679ms (Views: 39.3ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 14:16:42 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 46.3ms)
+
+
+Started GET "/login/callback?code=00982af147bad76b9c0c52184eb77c71ccc9472af6662cb5ec3dd89a093b8f41" for 127.0.0.1 at 2019-03-19 14:16:44 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"00982af147bad76b9c0c52184eb77c71ccc9472af6662cb5ec3dd89a093b8f41"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 504ms (Views: 47.4ms)
+
+

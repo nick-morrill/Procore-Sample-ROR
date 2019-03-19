@@ -1,22 +1,20 @@
-<% if flash[:notice] %>
-   <div class="notice">
-     <%= flash[:notice] %>
-   </div>
- <% end %>
+<h3>
 
-<table class="token-info">
-  <div class="table-headers">
-    <th>Access Token</th>
-    <th>Created At</th>
-    <th>Expires At</th>
-    <th>Refresh Token </th>
-  </div>
-  <div class="table-rows">
-    <td><% @access_token['access_token'] %></td>
-    <td><% @access_token['created_at'] %> </td>
-    <td><% @access_token['expires_in'] %> </td>
-    <td><% @access_token['refresh_token'] %> </td>
-  </div>
+<table>
+    <tr>
+      <th>Access Token</th>
+      <th>Created At</th>
+      <th>Expires At</th>
+      <th>Refresh Token </th>
+    </tr>
+  </tr>
+    <td><%= @access_token['access_token'][1..5 ] + "..." %></td>
+    <td><%= @token_created_at %> </td>
+    <td><%= @access_token['expires_in'] %> </td>
+    <td><%= @access_token['refresh_token'][1..5]  + "..." %> </td>
+  </tr>
 </table>
 
-<%= button_to "Show User Information", users_me_path, method: :get %>
+<div class=me-button>
+  <%= link_to "Show User Information", users_me_path, method: :get, class: :button %>
+</div>

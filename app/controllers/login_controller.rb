@@ -1,6 +1,7 @@
 require 'httparty'
 require 'json'
 require 'rest-client'
+require 'date'
 
 class LoginController < ApplicationController
 
@@ -27,11 +28,11 @@ class LoginController < ApplicationController
         @access_token = JSON.parse(response)
 
         session[:access_token]= @access_token['access_token']
-          #created_at = @access_token['created_at']
-          #exipries_in = @access_token['exipries_in']
-          #refresh_token = @access_token['refresh_token']
+        created_at = @access_token['created_at']
+          @token_created_at = Time.at(created_at).to_datetime
+          puts @token_created_at
 
-        #flash[:notice] = "You've received an access token!"
+
   end
 
   #Refresh token
