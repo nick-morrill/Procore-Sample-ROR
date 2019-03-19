@@ -18,3 +18,5 @@
     <td><% @access_token['refresh_token'] %> </td>
   </div>
 </table>
+
+<%= button_to "Show User Information", user_me_path, method: :get %>

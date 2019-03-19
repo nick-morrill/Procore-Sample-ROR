@@ -27,21 +27,12 @@ class LoginController < ApplicationController
         @access_token = JSON.parse(response)
 
         session[:access_token]= @access_token['access_token']
-          created_at = @access_token['created_at']
-          exipries_in = @access_token['exipries_in']
-          refresh_token = @access_token['refresh_token']
+          #created_at = @access_token['created_at']
+          #exipries_in = @access_token['exipries_in']
+          #refresh_token = @access_token['refresh_token']
 
-        puts refresh_token
         #flash[:notice] = "You've received an access token!"
   end
-
-  def me
-    get_me = RestClient.get("https://api.procore.com/vapid/me",
-      {"Authorization" => "Bearer #{session[:access_token]}"})
-
-    @me = JSON.parse(get_me)
-  end
-
 
   #Refresh token
     #take Unix timestamp from callback method

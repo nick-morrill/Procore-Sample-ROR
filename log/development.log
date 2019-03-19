@@ -5073,3 +5073,391 @@ Processing by LoginController#index as HTML
 Completed 200 OK in 4189ms (Views: 3512.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-19 09:50:14 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1360ms (Views: 746.3ms)
+
+
+Started GET "/login/callback?code=0be57ad2273ec048704491559a9ae47cb45415e717c4f2b0c048003bb6bdd0ec" for 127.0.0.1 at 2019-03-19 09:51:07 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"0be57ad2273ec048704491559a9ae47cb45415e717c4f2b0c048003bb6bdd0ec"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 526ms (Views: 66.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 09:56:27 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 99ms (Views: 96.2ms)
+
+
+Started GET "/login/callback?code=4702499b43a3bda480a100c79724937444d1d17221d72b08c06436ffef9a0ad6" for 127.0.0.1 at 2019-03-19 09:56:28 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"4702499b43a3bda480a100c79724937444d1d17221d72b08c06436ffef9a0ad6"}
+Completed 500 Internal Server Error in 763ms
+
+
+  
+NameError (undefined local variable or method `refresh_token' for #<LoginController:0x007fec5c8ff958>
+Did you mean?  real_csrf_token):
+  
+app/controllers/login_controller.rb:34:in `callback'
+Started GET "/login/callback?code=4702499b43a3bda480a100c79724937444d1d17221d72b08c06436ffef9a0ad6" for 127.0.0.1 at 2019-03-19 09:56:36 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"4702499b43a3bda480a100c79724937444d1d17221d72b08c06436ffef9a0ad6"}
+Completed 500 Internal Server Error in 333ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:26:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-19 09:56:40 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 81ms (Views: 77.9ms)
+
+
+Started GET "/login/callback?code=07422d81361633d02762aa03c638857cdbe13482270acf6ed922f20422b574ce" for 127.0.0.1 at 2019-03-19 09:56:42 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"07422d81361633d02762aa03c638857cdbe13482270acf6ed922f20422b574ce"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 387ms (Views: 37.1ms)
+
+
+Started POST "/login/callback?method=me" for 127.0.0.1 at 2019-03-19 09:56:44 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/login/callback"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-19 09:57:09 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 381ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `login_callback_path' for #<#<Class:0x007fec6114da98>:0x007fec61147e90>
+Did you mean?  login_me_path):
+    13:     <div class="container">
+    14:       <ul class="nav nav-tabs">
+    15:         <li><%= link_to "Sign In", login_index_path %></li>
+    16:         <li><%= link_to "Home", login_callback_path %></li>
+    17:       </ul>
+    18:       <%= yield %>
+    19:       
+  
+app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___2395377093590364645_70326608864240'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:00:44 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1500ms (Views: 778.5ms)
+
+
+Started GET "/login/callback?code=cc691303258931e5b0feca7b1c1d83ac19dde548bae01f1ff02d5a332a9eb772" for 127.0.0.1 at 2019-03-19 10:00:47 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"cc691303258931e5b0feca7b1c1d83ac19dde548bae01f1ff02d5a332a9eb772"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 456ms (Views: 33.1ms)
+
+
+Started POST "/login/callback?method=me" for 127.0.0.1 at 2019-03-19 10:00:49 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/login/callback"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:03:31 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1388ms (Views: 768.6ms)
+
+
+Started GET "/login/callback?code=fbf873914e51be7cbe30a25920ee6361b0f62a75b5dc4a1c21e995b8b8bb3073" for 127.0.0.1 at 2019-03-19 10:03:34 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"fbf873914e51be7cbe30a25920ee6361b0f62a75b5dc4a1c21e995b8b8bb3073"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 437ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/login/callback.html.erb:22: syntax error, unexpected ':', expecting ')'
+tion", login_me_path, :method: :get );
+                              ^):
+  
+app/views/login/callback.html.erb:22: syntax error, unexpected ':', expecting ')'
+Started GET "/login/callback?code=fbf873914e51be7cbe30a25920ee6361b0f62a75b5dc4a1c21e995b8b8bb3073" for 127.0.0.1 at 2019-03-19 10:03:54 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"fbf873914e51be7cbe30a25920ee6361b0f62a75b5dc4a1c21e995b8b8bb3073"}
+Completed 500 Internal Server Error in 371ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:26:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:03:56 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 58.6ms)
+
+
+Started GET "/login/callback?code=8e42f0057ba1793c85e2e81240af415a3f6dfa4b3b647954f5392795184605ad" for 127.0.0.1 at 2019-03-19 10:03:57 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"8e42f0057ba1793c85e2e81240af415a3f6dfa4b3b647954f5392795184605ad"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 517ms (Views: 45.8ms)
+
+
+Started GET "/login/me" for 127.0.0.1 at 2019-03-19 10:03:58 -0700
+Processing by LoginController#me as HTML
+Completed 406 Not Acceptable in 589ms
+
+
+  
+ActionController::UnknownFormat (LoginController#me is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.6.2) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.6.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.6.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.6.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.6.2) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.6.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.6.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.6.2) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.6.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6.2) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6.2) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6.2) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6.2) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6.2) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.2) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:11:17 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 4479ms (Views: 3879.5ms)
+
+
+Started GET "/login/callback?code=bda5193cf82d17194c124105bcccb5addc401834473e9d4ca5834fc060cd7c37" for 127.0.0.1 at 2019-03-19 10:11:24 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"bda5193cf82d17194c124105bcccb5addc401834473e9d4ca5834fc060cd7c37"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (503.6ms)
+Completed 500 Internal Server Error in 1368ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user_me_path' for #<#<Class:0x007ff326f6cab8>:0x007ff32a45a6f8>
+Did you mean?  users_me_path):
+    19:   </div>
+    20: </table>
+    21: 
+    22: <%= button_to "Show User Information", user_me_path, method: :get %>
+  
+app/views/login/callback.html.erb:22:in `_app_views_login_callback_html_erb___489773650773592809_70341181496140'
+Started GET "/login/callback?code=c17590fe40fea66744b418b33f2c58fd38e3feb06f77e45ba4a3f46642e47ef4" for 127.0.0.1 at 2019-03-19 10:11:53 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"c17590fe40fea66744b418b33f2c58fd38e3feb06f77e45ba4a3f46642e47ef4"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1202ms (Views: 544.6ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:11:56 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 479ms (Views: 41.3ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-19 10:12:23 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 44.7ms)
+
+
+Started GET "/login/callback?code=cc7502a765fed585be896a51a75ecbeaa6c571f37c40955536cf4c1313120ba0" for 127.0.0.1 at 2019-03-19 10:12:24 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"cc7502a765fed585be896a51a75ecbeaa6c571f37c40955536cf4c1313120ba0"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 445ms (Views: 46.1ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:12:27 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 495ms (Views: 39.7ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:14:49 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 570ms (Views: 93.1ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:17:38 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 895ms (Views: 99.6ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:17:55 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 508ms (Views: 47.6ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:18:00 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 490ms (Views: 52.2ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:19:48 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 500ms (Views: 79.9ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:20:07 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 475ms (Views: 58.3ms)
+
+
+Started GET "/user/me" for 127.0.0.1 at 2019-03-19 10:20:18 -0700
+Processing by UserController#me as HTML
+  Rendering user/me.html.erb within layouts/application
+  Rendered user/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 428ms (Views: 37.0ms)
+
+

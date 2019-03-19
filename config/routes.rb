@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'login/index'
 
-  get 'login/me'
+  get 'user/me'
 
   get 'login/callback'
 
