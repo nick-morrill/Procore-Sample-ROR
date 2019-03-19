@@ -5461,3 +5461,83 @@ Processing by UserController#me as HTML
 Completed 200 OK in 428ms (Views: 37.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:25:32 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1330ms (Views: 721.6ms)
+
+
+Started GET "/login/callback?code=57340f2b380f3034a77a357d9093632f02e2e7f3c85d490e3eebe4ac3088966e" for 127.0.0.1 at 2019-03-19 10:25:35 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"57340f2b380f3034a77a357d9093632f02e2e7f3c85d490e3eebe4ac3088966e"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (388.8ms)
+Completed 500 Internal Server Error in 814ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user_me_path' for #<#<Class:0x007f8aaf2d8d40>:0x007f8aafc48150>
+Did you mean?  users_me_path):
+    19:   </div>
+    20: </table>
+    21: 
+    22: <%= button_to "Show User Information", user_me_path, method: :get %>
+  
+app/views/login/callback.html.erb:22:in `_app_views_login_callback_html_erb___1133002314207259879_70116815554000'
+Started GET "/login/callback?code=57340f2b380f3034a77a357d9093632f02e2e7f3c85d490e3eebe4ac3088966e" for 127.0.0.1 at 2019-03-19 10:25:51 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"57340f2b380f3034a77a357d9093632f02e2e7f3c85d490e3eebe4ac3088966e"}
+Completed 500 Internal Server Error in 338ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:26:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:25:54 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 80ms (Views: 75.3ms)
+
+
+Started GET "/login/callback?code=0b82fe34e32f7a368492f1aab9ce4bd6aa2c460b665e2dbd4f407df3edfe308d" for 127.0.0.1 at 2019-03-19 10:25:56 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"0b82fe34e32f7a368492f1aab9ce4bd6aa2c460b665e2dbd4f407df3edfe308d"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 413ms (Views: 56.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-19 10:25:57 -0700
+Processing by UsersController#me as HTML
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 614ms (Views: 34.7ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-19 10:26:02 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 378ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:26:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-19 10:35:01 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 121ms (Views: 117.5ms)
+
+
+Started GET "/login/callback?code=40de4a08ca320bc0857249da1c49b36794e3821bae55d70e09dd2fccb037bf66" for 127.0.0.1 at 2019-03-19 10:35:07 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"40de4a08ca320bc0857249da1c49b36794e3821bae55d70e09dd2fccb037bf66"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 516ms (Views: 53.2ms)
+
+

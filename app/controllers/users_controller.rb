@@ -1,4 +1,4 @@
-class UserController < ApplicationController
+class UsersController < ApplicationController
 
   def me
     get_me = RestClient.get("https://api.procore.com/vapid/me",
