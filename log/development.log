@@ -5894,3 +5894,1261 @@ Processing by LoginController#callback as HTML
 Completed 200 OK in 504ms (Views: 47.4ms)
 
 
+Started GET "/login/callback?code=00982af147bad76b9c0c52184eb77c71ccc9472af6662cb5ec3dd89a093b8f41" for 127.0.0.1 at 2019-03-19 14:19:30 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"00982af147bad76b9c0c52184eb77c71ccc9472af6662cb5ec3dd89a093b8f41"}
+Completed 500 Internal Server Error in 404ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/login/callback?code=68b7dad089cf480f61b8bd30037ce90eab7049d3951eec96db18597e11c894f0" for 127.0.0.1 at 2019-03-19 14:19:34 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"68b7dad089cf480f61b8bd30037ce90eab7049d3951eec96db18597e11c894f0"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 470ms (Views: 103.6ms)
+
+
+Started GET "/login/callback?code=68b7dad089cf480f61b8bd30037ce90eab7049d3951eec96db18597e11c894f0" for 127.0.0.1 at 2019-03-19 14:20:33 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"68b7dad089cf480f61b8bd30037ce90eab7049d3951eec96db18597e11c894f0"}
+Completed 500 Internal Server Error in 432ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/login/callback?code=876cf1e31b023cdbf9446e89a52984f19fc282a23c35a4ad052e00f6641fc434" for 127.0.0.1 at 2019-03-19 14:20:37 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"876cf1e31b023cdbf9446e89a52984f19fc282a23c35a4ad052e00f6641fc434"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (411.4ms)
+Completed 500 Internal Server Error in 789ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `login_refresh_path' for #<#<Class:0x007f8ab193e5e8>:0x007f8aabfa83a8>
+Did you mean?  login_index_path):
+    20: </div>
+    21: 
+    22: <div class="refresh-button">
+    23:   <%= link_to "Refresh Your Access Token", login_refresh_path, method: :post, class: :button%> 
+    24: </div>
+  
+app/views/login/callback.html.erb:23:in `_app_views_login_callback_html_erb___1133002314207259879_70116783769540'
+Started GET "/" for 127.0.0.1 at 2019-03-19 14:56:50 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 381ms (Views: 304.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-19 15:04:16 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 467ms (Views: 446.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-19 15:36:01 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 224ms (Views: 211.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-19 16:02:58 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 557ms (Views: 538.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:00:17 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1637ms (Views: 717.6ms)
+
+
+Started GET "/login/callback?code=5bf2c6de59639b0eaf2f4e29b3b89a690ebaa41705ad9153d88c8b0339b26ca2" for 127.0.0.1 at 2019-03-20 11:00:33 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"5bf2c6de59639b0eaf2f4e29b3b89a690ebaa41705ad9153d88c8b0339b26ca2"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (419.8ms)
+Completed 500 Internal Server Error in 875ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `login_refresh_path' for #<#<Class:0x007fc09e16fc68>:0x007fc0a0522ae8>
+Did you mean?  login_index_path):
+    20: </div>
+    21: 
+    22: <div class="refresh-button">
+    23:   <%= link_to "Refresh Your Access Token", login_refresh_path, method: :post, class: :button%> 
+    24: </div>
+  
+app/views/login/callback.html.erb:23:in `_app_views_login_callback_html_erb__245201009874350282_70232650095300'
+Started GET "/login/callback?code=5bf2c6de59639b0eaf2f4e29b3b89a690ebaa41705ad9153d88c8b0339b26ca2" for 127.0.0.1 at 2019-03-20 11:01:06 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"5bf2c6de59639b0eaf2f4e29b3b89a690ebaa41705ad9153d88c8b0339b26ca2"}
+Completed 500 Internal Server Error in 400ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:01:09 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 159ms (Views: 155.4ms)
+
+
+Started GET "/login/callback?code=76899a666577215d2e5b867b7011389c87689a9674f7e6210abe7f60befb7f2a" for 127.0.0.1 at 2019-03-20 11:01:10 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"76899a666577215d2e5b867b7011389c87689a9674f7e6210abe7f60befb7f2a"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 408ms (Views: 51.8ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-20 11:01:22 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"vUQowL3VdbGGcUdB+e+cl62oTCKW32Es3JWHaSCPqFGIJkMvG+iL5RIAzGrX9yhwvMHWMbNktStiFUDGovzEXQ=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 808ms (Views: 39.8ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 11:01:31 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 856ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:01:34 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 75ms (Views: 70.7ms)
+
+
+Started GET "/login/callback?code=681f4ef29cba29ead6539b58f81f73a9321b8e61c9eba2ed3bc21538b149e5d8" for 127.0.0.1 at 2019-03-20 11:09:53 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"681f4ef29cba29ead6539b58f81f73a9321b8e61c9eba2ed3bc21538b149e5d8"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 510ms (Views: 102.3ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 11:10:00 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 349ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:20:47 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 18ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected '='
+token['access_token'].blank? = true );@output_buffer.safe_ap
+                              ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected '='
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:21:02 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;         else 
+                      ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:21:05 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;         else 
+                      ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:21:14 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;         else 
+                      ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:21:17 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;         else 
+                      ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:21:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;         else 
+                      ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:21:39 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;         else 
+                      ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:21:45 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else
+e;@output_buffer.append=( else );@output_buffer.safe_append=
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_else
+app/views/layouts/application.html.erb:22: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:25:42 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 671ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+token['access_token'].blank? );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;       else 
+                    ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 11:30:34 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 423ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:30:36 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+session[:access_token] == "" );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;       else 
+                    ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:30:55 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+_token['access_token'] == "" );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;       else 
+                    ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:38:51 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+_token['access_token'] == "" );@output_buffer.safe_append='
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+'.freeze;       else 
+                    ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:15: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_else, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:39:47 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+        <li>'.freeze;@output_buffer.app
+         ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: unknown regexp option - l
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+      </ul>
+       ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:22: unknown regexp options - dv
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+</html>
+ ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: unterminated regexp meets end of file):
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:17: unknown regexp option - l
+app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: unknown regexp options - dv
+app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:25: unterminated regexp meets end of file
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:40:10 -0700
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:40:10 -0700
+Processing by LoginController#index as HTML
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.9ms)
+  Rendered login/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 628ms
+
+
+Completed 500 Internal Server Error in 636ms
+
+
+  
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+        <li>'.freeze;@output_buffer.app
+         ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: unknown regexp option - l
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+      </ul>
+       ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:22: unknown regexp options - dv
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+</html>
+ ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: unterminated regexp meets end of file):
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+        <li>'.freeze;@output_buffer.app
+         ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: unknown regexp option - l
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+      </ul>
+       ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:22: unknown regexp options - dv
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+</html>
+ ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: unterminated regexp meets end of file):
+  
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:17: unknown regexp option - l
+app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: unknown regexp options - dv
+app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:25: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:17: unknown regexp option - l
+app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: unknown regexp options - dv
+app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:25: unterminated regexp meets end of file
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:40:19 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+        <li>'.freeze;@output_buffer.app
+         ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:17: unknown regexp option - l
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+      </ul>
+       ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:22: unknown regexp options - dv
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+</html>
+ ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/layouts/application.html.erb:25: unterminated regexp meets end of file):
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:17: unknown regexp option - l
+app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: unknown regexp options - dv
+app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:24: unknown regexp options - bdy
+app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:25: unterminated regexp meets end of file
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:40:29 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 1006ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `login_home_path' for #<#<Class:0x007f8bf06a9770>:0x007f8bf069a4a0>
+Did you mean?  login_index_path):
+    13:     <div class="container">
+    14:       <ul class="nav nav-tabs">
+    15:         <li><%= link_to "Sign In", login_index_path %></li>
+    16:         <li><%= link_to "Home", login_home_path %></li>
+    17:       </ul>
+    18: 
+    19:       <%= yield %>
+  
+app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb___1522027328723688585_70119495642540'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:40:39 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 65ms (Views: 63.0ms)
+
+
+Started GET "/login/callback?code=99f237d8fb741e4495a9de0698ea44acc6be6aff61b22876071e5f527a2430a3" for 127.0.0.1 at 2019-03-20 11:40:58 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"99f237d8fb741e4495a9de0698ea44acc6be6aff61b22876071e5f527a2430a3"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 588ms (Views: 134.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:41:47 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 44.8ms)
+
+
+Started GET "/login/callback?code=30a54a948ca1c0cc501b446754709084e062e0850ea315f9c2083d4491aab808" for 127.0.0.1 at 2019-03-20 11:41:48 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"30a54a948ca1c0cc501b446754709084e062e0850ea315f9c2083d4491aab808"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 414ms (Views: 37.8ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:42:26 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 84ms (Views: 81.0ms)
+
+
+Started GET "/login/callback?code=2e2847cbde23431f61357b3ca720b4a083275a585fdf252f3be0ac7b51b80d20" for 127.0.0.1 at 2019-03-20 11:42:28 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"2e2847cbde23431f61357b3ca720b4a083275a585fdf252f3be0ac7b51b80d20"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 418ms (Views: 37.8ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:42:40 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 65ms (Views: 61.2ms)
+
+
+Started GET "/login/callback?code=eff74c773d38f43e1b2f38011761037f190d044ffe802044405768dbc8d2a5bb" for 127.0.0.1 at 2019-03-20 11:42:41 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"eff74c773d38f43e1b2f38011761037f190d044ffe802044405768dbc8d2a5bb"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 421ms (Views: 59.5ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:07 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 46ms
+
+
+  
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    11: 
+    12:   <body>
+    13:     <div class="container">
+    14:       <% if @access_token.empty? %>
+    15:       <ul class="nav nav-tabs">
+    16:         <li><%= link_to "Sign In", login_index_path %></li>
+    17:         <li><%= link_to "Home", login_callback_path %></li>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1522027328723688585_70119529619780'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:44:11 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 49ms
+
+
+  
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    11: 
+    12:   <body>
+    13:     <div class="container">
+    14:       <% if @access_token.empty? %>
+    15:       <ul class="nav nav-tabs">
+    16:         <li><%= link_to "Sign In", login_index_path %></li>
+    17:         <li><%= link_to "Home", login_callback_path %></li>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1522027328723688585_70119508045320'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:44:18 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:44:28 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 38.0ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:34 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 59ms (Views: 53.7ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:36 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 36.3ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:36 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 34.9ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 28.5ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 68ms (Views: 63.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 31.3ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:38 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:38 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 164ms (Views: 158.9ms)
+
+
+Completed 200 OK in 259ms (Views: 256.8ms)
+
+
+Completed 200 OK in 72ms (Views: 68.7ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:38 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.0ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:38 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.3ms)
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:38 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 161ms (Views: 155.3ms)
+
+
+Completed 200 OK in 54ms (Views: 49.8ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:39 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 56.2ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:44:39 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 36.2ms)
+
+
+Started GET "/login/callback?code=e156072b4020b8e248d762b94f1feb83455eb9fc3bf723eab5a5c837dfa79711" for 127.0.0.1 at 2019-03-20 11:44:41 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"e156072b4020b8e248d762b94f1feb83455eb9fc3bf723eab5a5c837dfa79711"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 430ms (Views: 46.5ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 11:48:43 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 376ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/login/home" for 127.0.0.1 at 2019-03-20 11:51:10 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/login/home"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:53:06 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 116ms (Views: 113.8ms)
+
+
+Started GET "/login/callback?code=f1f058b332fe7406c05d227b1bc43d0b62405404eb6015ecadebbf4162502c6b" for 127.0.0.1 at 2019-03-20 11:53:08 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"f1f058b332fe7406c05d227b1bc43d0b62405404eb6015ecadebbf4162502c6b"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 743ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `login_home_path' for #<#<Class:0x007f8bef3e4978>:0x007f8bf4305a20>
+Did you mean?  login_index_path):
+    17:         </ul>
+    18:       <% else %>
+    19:         <ul class="nav nav-tabs">
+    20:           <li><%= link_to "Home", login_home_path %></li>
+    21:         </ul>
+    22:       <% end %>
+    23: 
+  
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___1522027328723688585_70119536987920'
+Started GET "/login/callback?code=f1f058b332fe7406c05d227b1bc43d0b62405404eb6015ecadebbf4162502c6b" for 127.0.0.1 at 2019-03-20 11:53:23 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"f1f058b332fe7406c05d227b1bc43d0b62405404eb6015ecadebbf4162502c6b"}
+Completed 500 Internal Server Error in 364ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:53:28 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 118ms (Views: 115.7ms)
+
+
+Started GET "/login/callback?code=24f7402297025810f76e24c7c25ed0e615e59682266def2a9e584d7d65fc7cba" for 127.0.0.1 at 2019-03-20 11:53:35 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"24f7402297025810f76e24c7c25ed0e615e59682266def2a9e584d7d65fc7cba"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 383ms (Views: 39.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-20 11:53:45 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"ygXH4XVjQrGpM9kkHkRwCszoYb8iGnx7XpCGiGI7dDz/Z6wO01685T1CUg8wXMTt3YH7rAehqHzgEEEn4EgYMA=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 876ms (Views: 38.5ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 11:53:48 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 30.2ms)
+
+
+Started GET "/login/callback?code=a65ade573d8f645e1c83ca7b326510d04d82ee391edc4e7948cf7efab4b5ff00" for 127.0.0.1 at 2019-03-20 11:53:57 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"a65ade573d8f645e1c83ca7b326510d04d82ee391edc4e7948cf7efab4b5ff00"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 388ms (Views: 38.4ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 11:53:59 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 363ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:54:02 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 47.9ms)
+
+
+Started GET "/login/callback?code=471357d29badd828eb3cb1b1d501829271353e4fd06720faea5b38d1528ba609" for 127.0.0.1 at 2019-03-20 11:54:03 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"471357d29badd828eb3cb1b1d501829271353e4fd06720faea5b38d1528ba609"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 412ms (Views: 39.2ms)
+
+
+Started GET "/login/callback?code=471357d29badd828eb3cb1b1d501829271353e4fd06720faea5b38d1528ba609" for 127.0.0.1 at 2019-03-20 11:54:09 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"471357d29badd828eb3cb1b1d501829271353e4fd06720faea5b38d1528ba609"}
+Completed 500 Internal Server Error in 535ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 11:59:03 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 73ms (Views: 68.0ms)
+
+
+Started GET "/login/callback?code=5be8e597dfe0b032388fe34e2f0f02e51e6ec02e88305a378adcb55145869d4e" for 127.0.0.1 at 2019-03-20 11:59:04 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"5be8e597dfe0b032388fe34e2f0f02e51e6ec02e88305a378adcb55145869d4e"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 421ms (Views: 34.8ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 15:38:07 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 396ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 15:47:27 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 223ms (Views: 211.0ms)
+
+
+Started GET "/login/callback?code=b3ed1df0976b2a0279ce1cf50a79fdbe171271d05a8127402a22c66943b68b05" for 127.0.0.1 at 2019-03-20 15:49:02 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"b3ed1df0976b2a0279ce1cf50a79fdbe171271d05a8127402a22c66943b68b05"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 582ms (Views: 153.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-20 15:55:44 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 111ms (Views: 108.5ms)
+
+
+Started GET "/login/callback?code=b784abc057fafb8be0dcf3f9227444b839f59f0fb04e9b79d32d209fa8fd6e09" for 127.0.0.1 at 2019-03-20 15:55:46 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"b784abc057fafb8be0dcf3f9227444b839f59f0fb04e9b79d32d209fa8fd6e09"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 442ms (Views: 50.9ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-03-20 15:55:48 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/login/refresh"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-20 15:57:57 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 90ms (Views: 86.3ms)
+
+
+Started GET "/login/callback?code=2cffef75b23a172e6393b6f8768ba1a0e6debc6a706e6d3f549d03811f8450fa" for 127.0.0.1 at 2019-03-20 15:57:59 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"2cffef75b23a172e6393b6f8768ba1a0e6debc6a706e6d3f549d03811f8450fa"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 473ms (Views: 50.5ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-03-20 15:58:01 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/login/refresh"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-20 15:58:47 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1072ms (Views: 437.7ms)
+
+
+Started GET "/login/callback?code=29d10d41f10aa0607f9fab4f971439ecd74a8af64e37200c7ce784413a57bcb6" for 127.0.0.1 at 2019-03-20 15:58:49 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"29d10d41f10aa0607f9fab4f971439ecd74a8af64e37200c7ce784413a57bcb6"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 511ms (Views: 49.9ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-03-20 15:58:59 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"FaxAmk+Z5fQjaDsHUg4tffDN6Oqw1AvPbMUkmLvceiogzit16aQboLcZsCx8Fpma4aRy+ZVv38jSReM3Oa8WJg=="}
+Redirected to http://localhost:3000/login/callback
+Completed 302 Found in 393ms
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 15:59:00 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 349ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-20 15:59:32 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 56ms (Views: 52.9ms)
+
+
+Started GET "/login/callback?code=b39ef27d8396da1f9912099e2e0688543f6a6a548e76f38fbf6925e24c0ab907" for 127.0.0.1 at 2019-03-20 15:59:34 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"b39ef27d8396da1f9912099e2e0688543f6a6a548e76f38fbf6925e24c0ab907"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 404ms (Views: 47.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-20 15:59:36 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"ZpmfIlpfQIQIh1aJA4PMB5H6ZBSgBb+TaTKmxF+/DmhT+/TN/GK+0Jz23aItm3jggJP+B4W+a5TXsmFr3cxiZA=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 561ms (Views: 43.0ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 16:02:01 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 100ms (Views: 97.2ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 16:02:18 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 41ms (Views: 38.1ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 16:02:19 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 76ms (Views: 70.6ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-20 16:02:21 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 411ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 16:02:23 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 54ms (Views: 48.4ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-20 16:02:25 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 47.3ms)
+
+
+Started GET "/login/callback?code=de7302fd412b13e1d32e73a75f9cda4b11f446dbcc97b82a0e0c3d2c4632cdc7" for 127.0.0.1 at 2019-03-20 16:02:26 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"de7302fd412b13e1d32e73a75f9cda4b11f446dbcc97b82a0e0c3d2c4632cdc7"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 403ms (Views: 53.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-21 11:13:45 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (86.3ms)
+Completed 200 OK in 1367ms (Views: 1320.7ms)
+
+
