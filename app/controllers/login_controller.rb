@@ -40,25 +40,6 @@ class LoginController < ApplicationController
 
   def refresh
 
-    request = {
-          "grant_type" => "refresh_token",
-          "client_id" => CLIENT_ID,
-          "client_secret" => CLIENT_SECRET,
-          "refresh_token" => session[:refresh_token],
-          "redirect_uri" => REDIRECT_URL
-        }
-
-        response = RestClient.post('https://login.procore.com/oauth/token', request.to_json, {content_type: :json, accept: :json})
-          @access_token = JSON.parse(response)
-
-          session[:access_token]= @access_token['access_token']
-          session[:refresh_token]= @access_token['refresh_token']
-          created_at = @access_token['created_at']
-            @token_created_at = Time.at(created_at).to_datetime
-
-          expires_at = @access_token['created_at']
-
-          redirect_to login_callback_path
 
   end
   #Refresh token

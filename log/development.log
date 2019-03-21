@@ -7152,3 +7152,66 @@ Processing by LoginController#index as HTML
 Completed 200 OK in 1367ms (Views: 1320.7ms)
 
 
+Started GET "/login/index" for 127.0.0.1 at 2019-03-21 14:11:26 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 753ms (Views: 727.9ms)
+
+
+Started GET "/login/callback?code=1c2717e43adf49520b30033a3226cb6cd6f77262be05c1e13dba6e4eae8e8829" for 127.0.0.1 at 2019-03-21 14:11:55 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"1c2717e43adf49520b30033a3226cb6cd6f77262be05c1e13dba6e4eae8e8829"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 1741ms (Views: 399.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-21 14:12:25 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"cwTVtN8iUmpXoIhwDurpYFOIS+ABroCYA2oPbNuprhNGZr5beR+sPsPRA1sg8l2HQuHR8yQVVJ+96sjDWdrCHw=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 1081ms (Views: 398.0ms)
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-21 14:12:34 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 629ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-21 14:12:40 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 154ms (Views: 151.1ms)
+
+
+Started GET "/login/callback?code=754c73f925e1a264f3735d51d88e44156dba789829891407028b45e4bfe65807" for 127.0.0.1 at 2019-03-21 14:13:48 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"754c73f925e1a264f3735d51d88e44156dba789829891407028b45e4bfe65807"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 889ms (Views: 414.2ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-03-21 14:22:06 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"CMPS+JvKx/Lbf1jGzamKB6UW+CyFjVTdQ4YMEeYs+i49obkXPfc5pk8O0+3jsT7gtH9iP6A2gNr9Bsu+ZF+WIg=="}
+Redirected to http://localhost:3000/login/callback
+Completed 302 Found in 665ms
+
+
+Started GET "/login/callback" for 127.0.0.1 at 2019-03-21 14:22:07 -0700
+Processing by LoginController#callback as HTML
+Completed 500 Internal Server Error in 437ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:27:in `callback'
