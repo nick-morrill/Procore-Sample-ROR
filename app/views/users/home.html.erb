@@ -1,0 +1,22 @@
+<table>
+    <tr>
+      <th>Access Token</th>
+      <th>Created At</th>
+      <th>Expires At</th>
+      <th>Refresh Token </th>
+    </tr>
+  </tr>
+    <td><%= session[:access_token][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    <td><%= @created_at %> </td>
+    <td><%= @expires_at %> </td>
+    <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+  </tr>
+</table>
+
+<div class="me-button">
+  <%= link_to "Show User Information", users_me_path, method: :get, class: :button %>
+</div>
+
+<div class="refresh-button">
+  <#%= link_to "Refresh Your Access Token", login_refresh_path, method: :post, class: :button%>
+</div>

@@ -4,9 +4,11 @@ Rails.application.routes.draw do
 
   get 'users/me'
 
-  get 'login/callback'
+  get 'users/home'
 
-  post 'login/refresh'
+  get 'users/refresh'
+
+  get 'login/callback'
 
   root 'login#index'
 
