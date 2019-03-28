@@ -8124,3 +8124,1485 @@ Processing by UsersController#home as HTML
 Completed 200 OK in 101ms (Views: 96.7ms)
 
 
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 14:52:29 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 96ms (Views: 91.6ms)
+
+
+Started GET "/login/callback?code=cb2ceb0d619577562b6c8183ac907942b4aa3a0f305c368c991797eba0b601de" for 127.0.0.1 at 2019-03-28 14:52:41 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"cb2ceb0d619577562b6c8183ac907942b4aa3a0f305c368c991797eba0b601de"}
+Completed 500 Internal Server Error in 675ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdcdb6d4470>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=cb2ceb0d619577562b6c8183ac907942b4aa3a0f305c368c991797eba0b601de" for 127.0.0.1 at 2019-03-28 14:53:16 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"cb2ceb0d619577562b6c8183ac907942b4aa3a0f305c368c991797eba0b601de"}
+Completed 500 Internal Server Error in 338ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 14:53:19 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 81ms (Views: 78.8ms)
+
+
+Started GET "/login/callback?code=4357d62d5eea39514bde89617de57944b3ada159eca526a5a1f6833343caf2ce" for 127.0.0.1 at 2019-03-28 14:53:21 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"4357d62d5eea39514bde89617de57944b3ada159eca526a5a1f6833343caf2ce"}
+Completed 500 Internal Server Error in 615ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdcdede3b50>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=4357d62d5eea39514bde89617de57944b3ada159eca526a5a1f6833343caf2ce" for 127.0.0.1 at 2019-03-28 14:53:50 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"4357d62d5eea39514bde89617de57944b3ada159eca526a5a1f6833343caf2ce"}
+Completed 500 Internal Server Error in 400ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 14:53:53 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 73ms (Views: 70.7ms)
+
+
+Started GET "/login/callback?code=46d88bc110b1ed41349844dbe6f6287083d3a7445f07ced2a72aa2f5f6c16bfe" for 127.0.0.1 at 2019-03-28 14:54:01 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"46d88bc110b1ed41349844dbe6f6287083d3a7445f07ced2a72aa2f5f6c16bfe"}
+Completed 500 Internal Server Error in 601ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdcdbf8d878>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=46d88bc110b1ed41349844dbe6f6287083d3a7445f07ced2a72aa2f5f6c16bfe" for 127.0.0.1 at 2019-03-28 14:54:35 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"46d88bc110b1ed41349844dbe6f6287083d3a7445f07ced2a72aa2f5f6c16bfe"}
+Completed 500 Internal Server Error in 365ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 14:54:38 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 92ms (Views: 89.2ms)
+
+
+Started GET "/login/callback?code=9463c86379eb8652580352b17be08f294aaa983a07a1a4355b0385177bed5e8d" for 127.0.0.1 at 2019-03-28 14:54:40 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9463c86379eb8652580352b17be08f294aaa983a07a1a4355b0385177bed5e8d"}
+Completed 500 Internal Server Error in 549ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdce1078bc0>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 14:58:05 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 133ms (Views: 123.9ms)
+
+
+Started GET "/login/callback?code=9c416c7cf1eb5e030fac5cb3f45a71b0960557ea66e1f249512aee698c2082e1" for 127.0.0.1 at 2019-03-28 14:58:10 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9c416c7cf1eb5e030fac5cb3f45a71b0960557ea66e1f249512aee698c2082e1"}
+Completed 500 Internal Server Error in 635ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdcdf67de00>):
+  
+app/controllers/login_controller.rb:26:in `callback'
+Started GET "/login/callback?code=9c416c7cf1eb5e030fac5cb3f45a71b0960557ea66e1f249512aee698c2082e1" for 127.0.0.1 at 2019-03-28 14:59:36 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9c416c7cf1eb5e030fac5cb3f45a71b0960557ea66e1f249512aee698c2082e1"}
+Completed 500 Internal Server Error in 360ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 14:59:41 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 65ms (Views: 62.6ms)
+
+
+Started GET "/login/callback?code=b057ba5216791895658314f0de8e7007a6a2c81b319a8065ed9f8a854c358e25" for 127.0.0.1 at 2019-03-28 14:59:43 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"b057ba5216791895658314f0de8e7007a6a2c81b319a8065ed9f8a854c358e25"}
+Completed 500 Internal Server Error in 544ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdcdf1e4790>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=b057ba5216791895658314f0de8e7007a6a2c81b319a8065ed9f8a854c358e25" for 127.0.0.1 at 2019-03-28 15:00:08 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"b057ba5216791895658314f0de8e7007a6a2c81b319a8065ed9f8a854c358e25"}
+Completed 500 Internal Server Error in 370ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:00:13 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 110ms (Views: 107.1ms)
+
+
+Started GET "/login/callback?code=7ea0658f9c5e86a29b05c0beee3aaa8ec5fe0473837490ae316e2bd65dff354d" for 127.0.0.1 at 2019-03-28 15:00:14 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"7ea0658f9c5e86a29b05c0beee3aaa8ec5fe0473837490ae316e2bd65dff354d"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 358ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:00:15 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 49ms (Views: 45.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:00:32 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 64ms (Views: 62.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:00:46 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 47ms (Views: 43.8ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:01:54 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 73ms (Views: 71.1ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:04:51 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 118ms (Views: 114.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:05:18 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (331.8ms)
+Completed 500 Internal Server Error in 343ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `created_at' for #<#<Class:0x007fdcdc7e4e18>:0x007fdcdb5711f0>):
+     7:     </tr>
+     8:   </tr>
+     9:     <td><%= session[:access_token][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= created_at %> </td>
+    11:     <td><%= @expires_at %> </td>
+    12:     <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+    13:   </tr>
+  
+app/views/users/home.html.erb:10:in `_app_views_users_home_html_erb___2928092223880039455_70293274739860'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:06:39 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 99ms (Views: 96.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:06:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 39ms (Views: 37.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:07:10 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     7:     </tr>
+     8:   </tr>
+     9:     <td><%= session[:access_token][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= Time.at(@response_object['created_at']).to_datetime %> </td>
+    11:     <td><%= @expires_at %> </td>
+    12:     <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+    13:   </tr>
+  
+app/views/users/home.html.erb:10:in `_app_views_users_home_html_erb___2928092223880039455_70293271475920'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:07:36 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     7:     </tr>
+     8:   </tr>
+     9:     <td><%= session[:access_token][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= Time.at(@response_object['created_at']).to_datetime %> </td>
+    11:     <td><%= @expires_at %> </td>
+    12:     <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+    13:   </tr>
+  
+app/views/users/home.html.erb:10:in `_app_views_users_home_html_erb___2928092223880039455_70293279864680'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:07:45 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 105ms (Views: 100.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:08:46 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 143ms (Views: 140.3ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:08:53 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 54ms (Views: 40.3ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:09:11 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 51ms (Views: 47.1ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:09:21 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 53ms (Views: 50.7ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:09:31 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 40ms (Views: 37.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-28 15:09:36 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"W9ZhmQwuRVLcTABmkXNzhbDCjr4A73yW9gJTQboUn2xutAp2qhO7Bkg9i02/a8dioasUrSVUqJFIgpTuOGfzYA=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 500ms (Views: 41.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:09:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 64ms (Views: 61.4ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:10:14 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 44ms (Views: 41.0ms)
+
+
+Started GET "/login/callback?code=9bdd701dafc79b5cfb214ebe7af00fc201fdd27b034ab375d5ae36e3f57379c2" for 127.0.0.1 at 2019-03-28 15:10:15 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9bdd701dafc79b5cfb214ebe7af00fc201fdd27b034ab375d5ae36e3f57379c2"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 385ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:10:16 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 36ms (Views: 34.3ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:11:29 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 36ms (Views: 34.0ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:11:31 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 37.1ms)
+
+
+Started GET "/login/callback?code=7f06fa3ea4124677501767421d9f82ac28d2c1ca7c8142796af05d69630d3cd2" for 127.0.0.1 at 2019-03-28 15:11:32 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"7f06fa3ea4124677501767421d9f82ac28d2c1ca7c8142796af05d69630d3cd2"}
+Completed 500 Internal Server Error in 574ms
+
+
+  
+NameError (undefined local variable or method `create_at' for #<LoginController:0x007fdce1a139a0>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=7f06fa3ea4124677501767421d9f82ac28d2c1ca7c8142796af05d69630d3cd2" for 127.0.0.1 at 2019-03-28 15:12:13 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"7f06fa3ea4124677501767421d9f82ac28d2c1ca7c8142796af05d69630d3cd2"}
+Completed 500 Internal Server Error in 338ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:12:18 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 109ms (Views: 103.6ms)
+
+
+Started GET "/login/callback?code=1b2aa739439e56b3ee38a0c6a5b464274f8b9d75924f20c220dcd491da58c76c" for 127.0.0.1 at 2019-03-28 15:12:20 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"1b2aa739439e56b3ee38a0c6a5b464274f8b9d75924f20c220dcd491da58c76c"}
+Completed 500 Internal Server Error in 567ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdce30b9268>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=1b2aa739439e56b3ee38a0c6a5b464274f8b9d75924f20c220dcd491da58c76c" for 127.0.0.1 at 2019-03-28 15:12:41 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"1b2aa739439e56b3ee38a0c6a5b464274f8b9d75924f20c220dcd491da58c76c"}
+Completed 500 Internal Server Error in 407ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:12:45 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 63ms (Views: 60.9ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:13:17 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 34.5ms)
+
+
+Started GET "/login/callback?code=3bef4fab4f29857963513da44c1ff4278aca1095d5865785f748d17bb15a3871" for 127.0.0.1 at 2019-03-28 15:13:18 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"3bef4fab4f29857963513da44c1ff4278aca1095d5865785f748d17bb15a3871"}
+Completed 500 Internal Server Error in 350ms
+
+
+  
+TypeError (can't convert nil into an exact number):
+  
+app/controllers/login_controller.rb:26:in `callback'
+Started GET "/login/callback?code=3bef4fab4f29857963513da44c1ff4278aca1095d5865785f748d17bb15a3871" for 127.0.0.1 at 2019-03-28 15:14:08 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"3bef4fab4f29857963513da44c1ff4278aca1095d5865785f748d17bb15a3871"}
+Completed 500 Internal Server Error in 372ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:14:12 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 97ms (Views: 93.7ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:14:14 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 42.0ms)
+
+
+Started GET "/login/callback?code=2ab118d80ecd0952c2e0dccfaf0d48fd954cccb86dea6ace891c2e3b61075ec6" for 127.0.0.1 at 2019-03-28 15:14:16 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"2ab118d80ecd0952c2e0dccfaf0d48fd954cccb86dea6ace891c2e3b61075ec6"}
+Completed 500 Internal Server Error in 350ms
+
+
+  
+TypeError (can't convert nil into an exact number):
+  
+app/controllers/login_controller.rb:26:in `callback'
+Started GET "/login/callback?code=2ab118d80ecd0952c2e0dccfaf0d48fd954cccb86dea6ace891c2e3b61075ec6" for 127.0.0.1 at 2019-03-28 15:14:37 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"2ab118d80ecd0952c2e0dccfaf0d48fd954cccb86dea6ace891c2e3b61075ec6"}
+Completed 500 Internal Server Error in 335ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:14:39 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 67ms (Views: 64.6ms)
+
+
+Started GET "/login/callback?code=864e7beb2011b8ef8ca0cd5fc2127f36ff47de20e6cd71edbdb59bd88ef809e9" for 127.0.0.1 at 2019-03-28 15:14:41 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"864e7beb2011b8ef8ca0cd5fc2127f36ff47de20e6cd71edbdb59bd88ef809e9"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 354ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:14:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 31.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:15:05 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 40.0ms)
+
+
+Started GET "/login/callback?code=69879a5fa2aaf7f18e172950c01b3bc6d6f7120894a9b4e06e7ec961096fc09b" for 127.0.0.1 at 2019-03-28 15:15:07 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"69879a5fa2aaf7f18e172950c01b3bc6d6f7120894a9b4e06e7ec961096fc09b"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 357ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:15:07 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 41.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-28 15:15:15 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"dNDMP4BlvCbsGkR4DJUhtNASDsz/18kbxnl4KKXQc4tBsqfQJlhCcnhrz1MijZVTwXuU39psHRx4+b+HJ6Mfhw=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 450ms (Views: 41.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:15:19 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 36.2ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:15:23 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 44.4ms)
+
+
+Started GET "/login/callback?code=698cf3ff9e05d7834e6b66f35db118ede0f54288eaf1acc0fc03c79b759d565f" for 127.0.0.1 at 2019-03-28 15:15:24 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"698cf3ff9e05d7834e6b66f35db118ede0f54288eaf1acc0fc03c79b759d565f"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 356ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:15:25 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 35ms (Views: 32.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:16:13 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 66.4ms)
+
+
+Started GET "/login/callback?code=2c31eb5d71664789e50f4fe27549133413c5e86eb657a3d6290789d71c63dcd5" for 127.0.0.1 at 2019-03-28 15:16:14 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"2c31eb5d71664789e50f4fe27549133413c5e86eb657a3d6290789d71c63dcd5"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 354ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:16:15 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 40ms (Views: 37.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:16:55 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 87ms (Views: 85.1ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:17:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 39ms (Views: 36.4ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:17:44 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 37.6ms)
+
+
+Started GET "/login/callback?code=38fe18e0a7c8e8ab3332f09b95749342049b4ba5373d25743fb0ed9efd94c754" for 127.0.0.1 at 2019-03-28 15:17:45 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"38fe18e0a7c8e8ab3332f09b95749342049b4ba5373d25743fb0ed9efd94c754"}
+Completed 500 Internal Server Error in 605ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdce1021848>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=38fe18e0a7c8e8ab3332f09b95749342049b4ba5373d25743fb0ed9efd94c754" for 127.0.0.1 at 2019-03-28 15:18:00 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"38fe18e0a7c8e8ab3332f09b95749342049b4ba5373d25743fb0ed9efd94c754"}
+Completed 500 Internal Server Error in 329ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:19:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:18:04 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 72ms (Views: 66.2ms)
+
+
+Started GET "/login/callback?code=4e747cb08efb4c6de1b8f85763a34e420ab9ffb59a4e59daadecee604af5b674" for 127.0.0.1 at 2019-03-28 15:18:05 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"4e747cb08efb4c6de1b8f85763a34e420ab9ffb59a4e59daadecee604af5b674"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 346ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:18:06 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 32.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:18:28 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 42.3ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:18:32 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 33.3ms)
+
+
+Started GET "/login/callback?code=0f758729fd2a5c9a279cf53ebedec871bc0d5656af7e03448157711af921afaa" for 127.0.0.1 at 2019-03-28 15:18:33 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"0f758729fd2a5c9a279cf53ebedec871bc0d5656af7e03448157711af921afaa"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 351ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:18:33 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 32.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:20:09 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 66ms (Views: 62.1ms)
+
+
+Started GET "/login/callback?code=ee295ad37805aee8fd83856a09c7e4c181d8417ea3ece583a930d0cc71441972" for 127.0.0.1 at 2019-03-28 15:20:11 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"ee295ad37805aee8fd83856a09c7e4c181d8417ea3ece583a930d0cc71441972"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 375ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:20:11 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 42ms (Views: 40.2ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:20:51 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 39ms (Views: 36.8ms)
+
+
+Started GET "/login/callback?code=0cacde034cef8703db896a7b88ef122b5f6b249f271923bd868940f55de9b039" for 127.0.0.1 at 2019-03-28 15:20:52 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"0cacde034cef8703db896a7b88ef122b5f6b249f271923bd868940f55de9b039"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 362ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:20:53 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 39.7ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:21:41 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32ms (Views: 29.9ms)
+
+
+Started GET "/login/callback?code=20e863458451703c1964d143818914bbbe5e1b1be62728c2facfedd7d7c387b0" for 127.0.0.1 at 2019-03-28 15:21:42 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"20e863458451703c1964d143818914bbbe5e1b1be62728c2facfedd7d7c387b0"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 352ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:21:42 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 46.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-28 15:22:00 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"gRbapqQfIZkVKAe1BGq5TOqH0zid0bHfASDB9Ly0SIO0dLFJAiLfzYFZjJ4qcg2r++5JK7hqZdi/oAZbPsckjw=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 559ms (Views: 57.8ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:22:03 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 70ms (Views: 66.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:22:50 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 39ms (Views: 37.1ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:22:53 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 32.2ms)
+
+
+Started GET "/login/callback?code=a8b2359d42c59ef02f8895f12743b327aac87f6b262b5c265ba36e12e97271b8" for 127.0.0.1 at 2019-03-28 15:22:54 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"a8b2359d42c59ef02f8895f12743b327aac87f6b262b5c265ba36e12e97271b8"}
+Completed 500 Internal Server Error in 549ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdce1a14eb8>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=a8b2359d42c59ef02f8895f12743b327aac87f6b262b5c265ba36e12e97271b8" for 127.0.0.1 at 2019-03-28 15:23:31 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"a8b2359d42c59ef02f8895f12743b327aac87f6b262b5c265ba36e12e97271b8"}
+Completed 500 Internal Server Error in 369ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:18:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:23:34 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 75ms (Views: 70.2ms)
+
+
+Started GET "/login/callback?code=7288ab221c56475381a5d967409b1b4d26c6bed25c3f64aaf09cb401491ba1fa" for 127.0.0.1 at 2019-03-28 15:23:35 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"7288ab221c56475381a5d967409b1b4d26c6bed25c3f64aaf09cb401491ba1fa"}
+Completed 500 Internal Server Error in 555ms
+
+
+  
+NameError (undefined local variable or method `created_at' for #<LoginController:0x007fdcdf42f8b0>):
+  
+app/controllers/login_controller.rb:25:in `callback'
+Started GET "/login/callback?code=7288ab221c56475381a5d967409b1b4d26c6bed25c3f64aaf09cb401491ba1fa" for 127.0.0.1 at 2019-03-28 15:23:53 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"7288ab221c56475381a5d967409b1b4d26c6bed25c3f64aaf09cb401491ba1fa"}
+Completed 500 Internal Server Error in 343ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:18:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:23:55 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 51.2ms)
+
+
+Started GET "/login/callback?code=e1bb5233a00b2a13616d3baee72b63035dbb80228c6ac689f3de7c4a3900b6e7" for 127.0.0.1 at 2019-03-28 15:23:56 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"e1bb5233a00b2a13616d3baee72b63035dbb80228c6ac689f3de7c4a3900b6e7"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 396ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:23:57 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 48ms (Views: 45.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:24:23 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 42ms (Views: 39.1ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:25:50 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 66ms (Views: 62.7ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:26:14 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 49ms (Views: 45.9ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:26:17 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 40ms (Views: 36.8ms)
+
+
+Started GET "/login/callback?code=b313fd023e92ebb58f37ab2749e81fd89b3bdf518cd6caf9da41707190cdc7a1" for 127.0.0.1 at 2019-03-28 15:26:18 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"b313fd023e92ebb58f37ab2749e81fd89b3bdf518cd6caf9da41707190cdc7a1"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 382ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:26:18 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 31.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:27:12 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 35.3ms)
+
+
+Started GET "/login/callback?code=a525fb55ca198fc004c94ea2f0272582b46cc97623580464bbbf7cda59a09c57" for 127.0.0.1 at 2019-03-28 15:27:13 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"a525fb55ca198fc004c94ea2f0272582b46cc97623580464bbbf7cda59a09c57"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 375ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:27:13 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 41.8ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:27:20 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 47.7ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:27:22 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 46.3ms)
+
+
+Started GET "/login/callback?code=13963eef336af189ed9c970f0b29063eaa9888a94bd98ad9d0e3f7f68c61e0d7" for 127.0.0.1 at 2019-03-28 15:27:22 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"13963eef336af189ed9c970f0b29063eaa9888a94bd98ad9d0e3f7f68c61e0d7"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 365ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:27:23 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 33.3ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:34:53 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 1313ms (Views: 697.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-28 15:34:56 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 73.2ms)
+
+
+Started GET "/login/callback?code=95349628a20344a01f4d5adc2f4d6ccd63498668a992482389f10798eb406120" for 127.0.0.1 at 2019-03-28 15:34:58 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"95349628a20344a01f4d5adc2f4d6ccd63498668a992482389f10798eb406120"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 384ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:34:58 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 70ms (Views: 65.2ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:35:44 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 34.0ms)
+
+
+Started GET "/login/callback?code=8c0c14acd25c22e09d82710b3ffdc6904655c49c6b66aa9ed3ae931b00dff50d" for 127.0.0.1 at 2019-03-28 15:35:45 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"8c0c14acd25c22e09d82710b3ffdc6904655c49c6b66aa9ed3ae931b00dff50d"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 353ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:35:45 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 49ms (Views: 46.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:36:03 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 55ms (Views: 51.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:36:12 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 71ms (Views: 69.1ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:36:36 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     6:       <th>Refresh Token </th>
+     7:     </tr>
+     8:   </tr>
+     9:     <td><%=   @response_object['access_token'][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= @pretty_time %> </td>
+    11:     <td><%= @expires_at %> </td>
+    12:     <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+  
+app/views/users/home.html.erb:9:in `_app_views_users_home_html_erb___68957597419120685_70362302243200'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:36:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 46ms (Views: 44.3ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:37:22 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (357.4ms)
+Completed 500 Internal Server Error in 373ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pretty_time' for #<#<Class:0x007ffcfdab1cb8>:0x007ffcfda9ed70>
+Did you mean?  pretty_inspect):
+     7:     </tr>
+     8:   </tr>
+     9:     <td><%= session[:access_token][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= pretty_time %> </td>
+    11:     <td><%= @expires_at %> </td>
+    12:     <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+    13:   </tr>
+  
+app/views/users/home.html.erb:10:in `_app_views_users_home_html_erb___68957597419120685_70362282171880'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:37:35 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 45ms (Views: 42.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:40:10 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 106ms (Views: 103.9ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:40:35 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 46.9ms)
+
+
+Started GET "/login/callback?code=e28100f9e0fc3e908fb215507e84cb95f528e2258784e066f6d6e7e639b36a49" for 127.0.0.1 at 2019-03-28 15:40:36 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"e28100f9e0fc3e908fb215507e84cb95f528e2258784e066f6d6e7e639b36a49"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 365ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:40:37 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 46.7ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:41:44 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 79ms (Views: 77.1ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:41:46 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 52ms (Views: 48.3ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:41:47 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 44.5ms)
+
+
+Started GET "/login/callback?code=642ffdbd63418b8c3c27a365cedc0458d22b7381f31716cb15d5dcdd34eb4642" for 127.0.0.1 at 2019-03-28 15:41:48 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"642ffdbd63418b8c3c27a365cedc0458d22b7381f31716cb15d5dcdd34eb4642"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 379ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:41:49 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 53ms (Views: 51.3ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:42:13 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 113ms (Views: 110.5ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:46:21 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 121ms (Views: 116.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:50:32 -0700
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/controllers/users_controller.rb:13: `@' without identifiers is not allowed as an instance variable name
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/controllers/users_controller.rb:13: syntax error, unexpected end-of-input):
+  
+app/controllers/users_controller.rb:13: `@' without identifiers is not allowed as an instance variable name
+app/controllers/users_controller.rb:13: syntax error, unexpected end-of-input
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:50:54 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 67ms (Views: 63.8ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:50:58 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:50:58 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 103ms (Views: 98.1ms)
+
+
+Completed 200 OK in 57ms (Views: 54.8ms)
+
+
+Started GET "/login/callback?code=d56f4f6a9d1e4f872623763d77b771f0b06e9fac6a140b97725c4be7b42668e7" for 127.0.0.1 at 2019-03-28 15:51:00 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"d56f4f6a9d1e4f872623763d77b771f0b06e9fac6a140b97725c4be7b42668e7"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 365ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:51:00 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 48ms (Views: 43.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:51:32 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 29.7ms)
+
+
+Started GET "/login/callback?code=5956afa7382fd1ceb524e7d553d4f8bf94f38265a44e834d94129b6a4b23be0c" for 127.0.0.1 at 2019-03-28 15:51:33 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"5956afa7382fd1ceb524e7d553d4f8bf94f38265a44e834d94129b6a4b23be0c"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 387ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:51:34 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 44ms (Views: 41.0ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:52:05 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 40.4ms)
+
+
+Started GET "/login/callback?code=e6f02eb884bc19a3d4e1574399f157ddb3feed50e4b9449083429da03618fd81" for 127.0.0.1 at 2019-03-28 15:52:06 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"e6f02eb884bc19a3d4e1574399f157ddb3feed50e4b9449083429da03618fd81"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 374ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:52:06 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 52ms (Views: 49.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-28 15:52:11 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"t/SHT7kPFgIjALk9XIhHzNDggGy6KxUuJuWXY06jxhaCluygHzLoVrdxMhZykPMrwYkaf5+QwSmYZVDMzNCqGg=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 522ms (Views: 39.7ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:52:14 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 60ms (Views: 57.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:52:53 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 56.4ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 15:52:55 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 47.5ms)
+
+
+Started GET "/login/callback?code=8c558d016de1f1a8c92fa21ed53e8a5561791e7729a8a210e287be6e62e6f7c7" for 127.0.0.1 at 2019-03-28 15:52:56 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"8c558d016de1f1a8c92fa21ed53e8a5561791e7729a8a210e287be6e62e6f7c7"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 351ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:52:56 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 44ms (Views: 41.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-28 15:52:58 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"tedyUW7y0yPlgkfxVuupJtShiHcF++kID6EMJBdpRzeAhRm+yM8td3HzzNp48x3BxcgSZCBAPQ+xIcuLlRorOw=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 457ms (Views: 48.7ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:53:00 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 71ms (Views: 68.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:53:10 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 53ms (Views: 49.7ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:54:10 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 1025ms (Views: 389.4ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 15:55:24 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 160ms (Views: 151.4ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:20:49 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 204ms (Views: 198.7ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 16:20:52 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 63ms (Views: 51.7ms)
+
+
+Started GET "/login/callback?code=8517578438dbcc82f6ea930baa2926ce2bdd965e7c2eb04a2a38c2fc9a3bf82a" for 127.0.0.1 at 2019-03-28 16:21:26 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"8517578438dbcc82f6ea930baa2926ce2bdd965e7c2eb04a2a38c2fc9a3bf82a"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 934ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:21:27 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 52ms (Views: 47.9ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:21:49 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 67ms (Views: 57.0ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-28 16:21:52 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 56ms (Views: 51.8ms)
+
+
+Started GET "/login/callback?code=658b3fba8ad56ba74989632d3b4cc2779532c2f3272029969e64b53b5eb9dd09" for 127.0.0.1 at 2019-03-28 16:21:53 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"658b3fba8ad56ba74989632d3b4cc2779532c2f3272029969e64b53b5eb9dd09"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 443ms (Views: 81.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:22:03 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 72ms (Views: 66.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-28 16:22:05 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"M4lPDTuv/6y1RYcWzhsNzWrC28oqdMGx9s8jKSHt0E0G6yTinZIB+CE0DD3gA7kqe6tB2Q/PFbZIT+SGo568QQ=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 508ms (Views: 50.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-28 16:25:19 -0700
+Processing by UsersController#me as HTML
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 559ms (Views: 83.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:25:20 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 92ms (Views: 81.9ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:26:30 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 89ms (Views: 86.6ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:27:55 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 72ms (Views: 68.4ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:30:07 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 104ms (Views: 100.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:30:47 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 50.4ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:32:56 -0700
+Processing by UsersController#home as HTML
+Completed 500 Internal Server Error in 270ms
+
+
+  
+NameError (undefined local variable or method `expires_at' for #<UsersController:0x007fd30f35bf08>
+Did you mean?  exipres_at
+               expires_in
+               expires_now
+               exipires_in):
+  
+app/controllers/users_controller.rb:18:in `home'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:33:55 -0700
+Processing by UsersController#home as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/users_controller.rb:17:in `home'
+Started GET "/" for 127.0.0.1 at 2019-03-28 16:33:59 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 124ms (Views: 120.0ms)
+
+
+Started GET "/login/callback?code=9eda19699ff101fb913ec2f971ccfdd28ef89bfa728a5709e4a2f1ca2735f31a" for 127.0.0.1 at 2019-03-28 16:34:07 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9eda19699ff101fb913ec2f971ccfdd28ef89bfa728a5709e4a2f1ca2735f31a"}
+  Rendering login/callback.html.erb within layouts/application
+  Rendered login/callback.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 453ms (Views: 58.8ms)
+
+
+Started GET "/login/callback?code=9eda19699ff101fb913ec2f971ccfdd28ef89bfa728a5709e4a2f1ca2735f31a" for 127.0.0.1 at 2019-03-28 16:34:39 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"9eda19699ff101fb913ec2f971ccfdd28ef89bfa728a5709e4a2f1ca2735f31a"}
+Completed 500 Internal Server Error in 516ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:18:in `callback'
+Started GET "/" for 127.0.0.1 at 2019-03-28 16:34:42 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 54ms (Views: 51.8ms)
+
+
+Started GET "/login/callback?code=5b7bec25ef284085b307bbe994e09bef139e135c81ef4a04e2dbdafc962ce4e8" for 127.0.0.1 at 2019-03-28 16:34:44 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"5b7bec25ef284085b307bbe994e09bef139e135c81ef4a04e2dbdafc962ce4e8"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 348ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:34:44 -0700
+Processing by UsersController#home as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/users_controller.rb:17:in `home'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:35:03 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 73ms (Views: 68.5ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:35:19 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 87ms (Views: 81.4ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:35:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 77ms (Views: 74.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:35:43 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 49ms (Views: 45.8ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-28 16:35:55 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 38.6ms)
+
+

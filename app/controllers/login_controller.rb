@@ -3,11 +3,6 @@ require 'rest-client'
 require 'date'
 
 class LoginController < ApplicationController
-  include JSON
-
-  CLIENT_ID = ENV['CLIENT_ID']
-  CLIENT_SECRET = ENV['CLIENT_SECRET']
-  REDIRECT_URL = ENV['REDIRECT_URL']
 
   def callback
     @authorization_code = params["code"]
@@ -21,15 +16,9 @@ class LoginController < ApplicationController
         }
 
         response = RestClient.post('https://login.procore.com/oauth/token', request.to_json, {content_type: :json, accept: :json})
-          @response_object = JSON.parse(response)
+          session[:oauth_response] = JSON.parse(response)
+          puts session[:oauth_response]
 
-
-          @response_object['access_token'] = session[:access_token]
-          @response_object['refresh_token'] = session[:refresh_token]
-          @response_object['created_at'] = created_at
-            @pretty_time = Time.at(created_at).to_datetime
-
-          expires_at = @response_object['expires_at']
 
           redirect_to users_home_path
   end
