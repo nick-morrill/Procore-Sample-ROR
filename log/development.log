@@ -9606,3 +9606,429 @@ Processing by UsersController#home as HTML
 Completed 200 OK in 41ms (Views: 38.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:21:57 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 1689ms (Views: 933.8ms)
+
+
+Started GET "/login/callback?code=3f23120b739c8f8b4aeb8e75b83a08d38f1b1ee0b95b743bdd715741bfcd0ff6" for 127.0.0.1 at 2019-03-29 15:22:41 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"3f23120b739c8f8b4aeb8e75b83a08d38f1b1ee0b95b743bdd715741bfcd0ff6"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 552ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:22:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 81ms (Views: 72.8ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:23:54 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 122ms (Views: 119.1ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:25:03 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 62ms (Views: 56.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:25:09 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"Zgj3mLycOtvtC2NbAskXGhy0P5JM5loD7njEshY9bSBTapx3GqHEj3l66HAs0aP9Dd2lgWldjgRQ+AMdlE4BLA=="}
+Completed 500 Internal Server Error in 485ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/users_controller.rb:4:in `me'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:25:16 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 55.0ms)
+
+
+Started GET "/login/callback?code=1a69d550ad41dd025df64dd9b9a81ec500eff310c2c6f125ed1d9423bafd8bcb" for 127.0.0.1 at 2019-03-29 15:25:19 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"1a69d550ad41dd025df64dd9b9a81ec500eff310c2c6f125ed1d9423bafd8bcb"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 485ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:25:20 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 32.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:25:21 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"F1fF7PJYlVKaJrtX4/Cj8/u+7vMS4ox6vUZzirIT+N8iNa4DVGVrBg5XMHzN6BcU6td04DdZWH0DxrQlMGCU0w=="}
+Completed 500 Internal Server Error in 442ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/users_controller.rb:4:in `me'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:25:39 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 37.8ms)
+
+
+Started GET "/login/callback?code=3a81f7d3a8a4b689d72b6e305891928436df61fbc775836e6defdf1e51fcb2fa" for 127.0.0.1 at 2019-03-29 15:25:40 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"3a81f7d3a8a4b689d72b6e305891928436df61fbc775836e6defdf1e51fcb2fa"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 424ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:25:41 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 40.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:25:42 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"iUzQ127EL4Kwycg7f2e/iEz5+50KAlTNBA1ktaZE5HC8Lrs4yPnR1iS4QxBRfwtvXZBhji+5gMq6jaMaJDeIfA=="}
+Completed 500 Internal Server Error in 412ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/users_controller.rb:4:in `me'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:25:53 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 35.0ms)
+
+
+Started GET "/login/callback?code=1b45bee99f913407f083fb4673705a6e9f46989e56f0f1a9a7ecd7eaf7c082df" for 127.0.0.1 at 2019-03-29 15:25:55 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"1b45bee99f913407f083fb4673705a6e9f46989e56f0f1a9a7ecd7eaf7c082df"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 434ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:25:56 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47ms (Views: 44.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:27:42 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"IRY44raaFzScc9pwS0dV5rxADmSecrCJ6iRislvE3eQUdFMNEKfpYAgCUVtlX+EBrSmUd7vJZI5UpKUd2bex6A=="}
+Completed 500 Internal Server Error in 475ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/users_controller.rb:4:in `me'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:27:47 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 83ms (Views: 79.9ms)
+
+
+Started GET "/login/callback?code=d5efdcc6ec9ded4f10817976c46bd5fe391c7cd8c30172cf0d46048bf8336fdf" for 127.0.0.1 at 2019-03-29 15:28:09 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"d5efdcc6ec9ded4f10817976c46bd5fe391c7cd8c30172cf0d46048bf8336fdf"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 420ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:28:10 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 82ms (Views: 80.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:28:11 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"Fvq5OQB1kpL2kkDzFt+D6p+Q0H+V0sTh2tRXozEV9NEjmNLWpkhsxmLjy9g4xzcNjvlKbLBpEOZkVJAMs2aY3Q=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 570ms (Views: 39.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:28:53 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 70ms (Views: 64.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:28:54 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"W4RXPmijizM+fSO62ut/VZsfwI4oKYFp4ZUhneSDL2xu5jzRzp51Z6oMqJH088uyinZanQ2SVW5fFeYyZvBDYA=="}
+Completed 500 Internal Server Error in 494ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/users_controller.rb:7:in `me'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:29:33 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1310ms (Views: 704.6ms)
+
+
+Started GET "/login/callback?code=8a83b0751f9b291d0a271ad11da34f9fb4464dfbb0038a6cc0fd9e59bb083f02" for 127.0.0.1 at 2019-03-29 15:29:36 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"8a83b0751f9b291d0a271ad11da34f9fb4464dfbb0038a6cc0fd9e59bb083f02"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 480ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:29:37 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 38ms (Views: 34.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:32:16 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"xxiJPM5QgW2fEbNthHbYCzsUhl208Xftz7FbvBFdxVDyeuLTaG1/OQtgOEaqbmzsKn0cTpFKo+pxMZwTky6pXA=="}
+Completed 500 Internal Server Error in 482ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/users_controller.rb:4:in `me'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:32:20 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 97ms (Views: 93.3ms)
+
+
+Started GET "/login/callback?code=5d2cae3424e295b1c9b1f31ce818850e58f71b094f248ec2a1e425924d3e91f5" for 127.0.0.1 at 2019-03-29 15:32:22 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"5d2cae3424e295b1c9b1f31ce818850e58f71b094f248ec2a1e425924d3e91f5"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 422ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:32:22 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 50ms (Views: 46.6ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-29 15:32:58 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 60ms (Views: 56.2ms)
+
+
+Started GET "/login/callback?code=3ec6ee910d3f38cd92117d4d0f181e5fcff77162d64151f2ce1fe4650408ebf5" for 127.0.0.1 at 2019-03-29 15:33:00 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"3ec6ee910d3f38cd92117d4d0f181e5fcff77162d64151f2ce1fe4650408ebf5"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 433ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:33:00 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Array):
+     6:       <th>Refresh Token </th>
+     7:     </tr>
+     8:   </tr>
+     9:     <td><%= [0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= @pretty_created_at %> </td>
+    11:     <td><%= @pretty_expires_at %> </td>
+    12:     <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+  
+app/views/users/home.html.erb:9:in `_app_views_users_home_html_erb___3037827960982413405_70273855421840'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:33:09 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/users/home.html.erb:9: syntax error, unexpected ')', expecting ']'
+token].split(//).last(5).join);@output_buffer.safe_append='<
+                              ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/users/home.html.erb:25: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/geoffhull/Desktop/Procore-Sample-ROR/app/views/users/home.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/users/home.html.erb:9: syntax error, unexpected ')', expecting ']'
+app/views/users/home.html.erb:25: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/users/home.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:33:17 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 95ms (Views: 91.9ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-29 15:33:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 38.5ms)
+
+
+Started GET "/login/callback?code=23f63dea9c14c32efc41461892843caf037d2368e01a77757b5f03f46c01ab6b" for 127.0.0.1 at 2019-03-29 15:33:38 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"23f63dea9c14c32efc41461892843caf037d2368e01a77757b5f03f46c01ab6b"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 429ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:33:38 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 36.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:34:00 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"ZEv1yD9aPd9YnpqfVgIGAIgXY1mIW4zAgCxQwmq6Z4xRKZ4nmWfDi8zvEbR4GrLnmX75Sq3gWMc+rJdt6MkLgA=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 567ms (Views: 44.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:34:21 -0700
+Processing by UsersController#me as HTML
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 514ms (Views: 41.9ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:34:26 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 20ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     6:       <th>Refresh Token </th>
+     7:     </tr>
+     8:   </tr>
+     9:     <td><%= session[:access_token]['access_token'][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= @pretty_created_at %> </td>
+    11:     <td><%= @pretty_expires_at %> </td>
+    12:     <td><%= session[:refresh_token]['refresh_token'][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+  
+app/views/users/home.html.erb:9:in `_app_views_users_home_html_erb___3037827960982413405_70273852643860'
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:35:11 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     9:     <td><%= @access_token[0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    10:     <td><%= @pretty_created_at %> </td>
+    11:     <td><%= @pretty_expires_at %> </td>
+    12:     <td><%= session[:refresh_token]['refresh_token'][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+    13:   </tr>
+    14: </table>
+    15: 
+  
+app/views/users/home.html.erb:12:in `_app_views_users_home_html_erb___3037827960982413405_70273846424580'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:35:14 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 48.5ms)
+
+
+Started GET "/login/callback?code=4dabaa748d5fb25379ac2c550ac6d02b3e34bc518a53c6ae1e39011ce2e6b664" for 127.0.0.1 at 2019-03-29 15:35:51 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"4dabaa748d5fb25379ac2c550ac6d02b3e34bc518a53c6ae1e39011ce2e6b664"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 420ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:35:51 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 67ms (Views: 65.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:35:55 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"ltvMYUXK9UlqOf/PijVLWeY+J44oxL9GLvPc4lyaUSOjuaeO4/cLHf5IdOSkLf++91e9nQ1/a0GQcxtN3uk9Lw=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 587ms (Views: 47.0ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:36:03 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 71ms (Views: 66.4ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:36:40 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 43ms (Views: 39.8ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:36:49 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"77owSIPNC+AsiNSXd5gsgyaEPV5QjIxD+nhrcd91HvXa2FunJfD1tLj5X7xZgJhkN+2nTXU3WERE+KzeXQZy+Q=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 537ms (Views: 55.2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:36:53 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 81ms (Views: 75.4ms)
+
+

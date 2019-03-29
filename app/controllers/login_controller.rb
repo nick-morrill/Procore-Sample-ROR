@@ -17,7 +17,7 @@ class LoginController < ApplicationController
 
         response = RestClient.post('https://login.procore.com/oauth/token', request.to_json, {content_type: :json, accept: :json})
           session[:oauth_response] = JSON.parse(response)
-          puts session[:oauth_response]
+          puts session[:oauth_response]['access_token']
 
 
           redirect_to users_home_path

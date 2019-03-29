@@ -6,10 +6,10 @@
       <th>Refresh Token </th>
     </tr>
   </tr>
-    <td><%= session[:access_token][0..4] + "..." + session[:access_token].split(//).last(5).join%></td>
+    <td><%= @access_token[0..4] + "..." + @access_token.split(//).last(5).join%></td>
     <td><%= @pretty_created_at %> </td>
     <td><%= @pretty_expires_at %> </td>
-    <td><%= session[:refresh_token][0..4]  + "..." + session[:refresh_token].split(//).last(5).join %> </td>
+    <td><%= @refresh_token[0..4]  + "..." + @refresh_token.split(//).last(5).join %> </td>
   </tr>
 </table>
 
