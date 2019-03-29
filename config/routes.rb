@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'users/home'
 
-  get 'users/refresh'
+  post 'login/refresh'
 
   get 'login/callback'
 

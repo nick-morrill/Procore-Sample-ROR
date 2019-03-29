@@ -10032,3 +10032,140 @@ Processing by UsersController#home as HTML
 Completed 200 OK in 81ms (Views: 75.4ms)
 
 
+Started GET "/login/index" for 127.0.0.1 at 2019-03-29 15:41:01 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 908ms (Views: 723.2ms)
+
+
+Started GET "/login/callback?code=25ca2c2b242e342c5951f2e86c388798d494d5af1b657a5d19b58089504600d1" for 127.0.0.1 at 2019-03-29 15:41:03 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"25ca2c2b242e342c5951f2e86c388798d494d5af1b657a5d19b58089504600d1"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 452ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:41:04 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 32.4ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-03-29 15:41:06 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/login/refresh"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-29 15:41:20 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 41.4ms)
+
+
+Started GET "/login/callback?code=88fab00b54bce584fe541cc9e37f8e5373355bff93d01f1a0cd10ba442007870" for 127.0.0.1 at 2019-03-29 15:41:21 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"88fab00b54bce584fe541cc9e37f8e5373355bff93d01f1a0cd10ba442007870"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 445ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:41:21 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 42ms (Views: 39.4ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-03-29 15:41:26 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"9bxE1+H1paLLI5cP/te6aEcIIFBG4XaFG+iaZTwemf7A3i84R8hb9l9SHCTQzw6PVmG6Q2NaooKlaF3Kvm318g=="}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 428ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:41:26 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 53.7ms)
+
+
+Started GET "/login/index" for 127.0.0.1 at 2019-03-29 15:41:37 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 52.2ms)
+
+
+Started GET "/login/callback?code=7686b656d9c7848455377cb987170b4dea4b3916edc85d6829e087c6b1908fcd" for 127.0.0.1 at 2019-03-29 15:41:51 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"7686b656d9c7848455377cb987170b4dea4b3916edc85d6829e087c6b1908fcd"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 443ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:41:51 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56ms (Views: 53.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-03-29 15:42:09 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"Q2H5lBggY5CuzoeHTiawWBCBJ4QSoW6PXkgYy6cugTd2A5J7vh2dxDq/DKxgPgS/Aei9lzcauojgyN9kJV3tOw=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 628ms (Views: 38.5ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:42:15 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 67ms (Views: 63.9ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-03-29 15:42:24 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"VOH7YpZj6Ps+EBebsbCN8ewytSo2GnFXRIrxPCUVUAZhg5CNMF4Wr6phnLCfqDkW/VsvOROhpVD6CjaTp2Y8Cg=="}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 466ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-03-29 15:42:24 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 41ms (Views: 38.0ms)
+
+
