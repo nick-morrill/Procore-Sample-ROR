@@ -10169,3 +10169,140 @@ Processing by UsersController#home as HTML
 Completed 200 OK in 41ms (Views: 38.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-04-03 14:35:08 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1461ms (Views: 827.6ms)
+
+
+Started GET "/login/callback?code=8d46d4f02a90f555b13d6023a66f5c5610288af4447720ebae17710c0f380ce2" for 127.0.0.1 at 2019-04-03 14:36:37 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"8d46d4f02a90f555b13d6023a66f5c5610288af4447720ebae17710c0f380ce2"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 453ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-04-03 14:36:37 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 86ms (Views: 81.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-04 11:01:49 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 377ms (Views: 355.5ms)
+
+
+Started GET "/login/callback?code=b4720291f3186bbef418c8007c0929aa306ad056ea9e45bd7d418f06b222cd77" for 127.0.0.1 at 2019-04-04 11:01:59 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"b4720291f3186bbef418c8007c0929aa306ad056ea9e45bd7d418f06b222cd77"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 419ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-04-04 11:02:00 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (41.9ms)
+Completed 200 OK in 122ms (Views: 119.0ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-04-04 11:02:55 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"1LOLSLOdfU35YgJBYfRVHjizuh2fas2A1WHh0p4X2/Ph0eCnFaCDGW0TiWpP7OH5KdogDrrRGYdr4SZ9HGS3/w=="}
+Started POST "/login/refresh" for 127.0.0.1 at 2019-04-04 11:02:55 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"1LOLSLOdfU35YgJBYfRVHjizuh2fas2A1WHh0p4X2/Ph0eCnFaCDGW0TiWpP7OH5KdogDrrRGYdr4SZ9HGS3/w=="}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 367ms
+
+
+Completed 500 Internal Server Error in 343ms
+
+
+  
+RestClient::Unauthorized (401 Unauthorized):
+  
+app/controllers/login_controller.rb:35:in `refresh'
+Started GET "/" for 127.0.0.1 at 2019-04-04 11:02:59 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 121ms (Views: 114.4ms)
+
+
+Started GET "/login/callback?code=122c59d4b83eaf64f7c98e3e8ba01e4e2629b1f8c2f62f318e17736959aca225" for 127.0.0.1 at 2019-04-04 11:03:00 -0700
+Processing by LoginController#callback as HTML
+  Parameters: {"code"=>"122c59d4b83eaf64f7c98e3e8ba01e4e2629b1f8c2f62f318e17736959aca225"}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 403ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-04-04 11:03:01 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 53ms (Views: 50.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2019-04-04 11:03:02 -0700
+Processing by UsersController#me as HTML
+  Parameters: {"authenticity_token"=>"qBZETHSG1cObqEqQl4xP3ijTkXTnFZYDnpfN973ZA8addC+j0rsrlw/Zwbu5lPs5OboLZ8KuQgQgFwpYP6pvyg=="}
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 497ms (Views: 48.7ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-04-04 11:03:04 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 65ms (Views: 60.2ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-04-04 11:03:05 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"m8TeL2fCawtaFHiRz696sYBQ2nTiWeAaRGi9QwktXCKuprXAwf+VX85l87rht85WkTlAZ8fiNB366Hrsi14wLg=="}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 346ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-04-04 11:03:05 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 44.1ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-04-04 11:03:07 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"i6lUHmoJqmGgGjQ9KLGyJ1umwTDmrVOxz08lg819MMG+yz/xzDRUNTRrvxYGqQbASs9bI8MWh7Zxz+IsTw5czQ=="}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 357ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-04-04 11:03:07 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 38.2ms)
+
+
+Started POST "/login/refresh" for 127.0.0.1 at 2019-04-04 11:03:08 -0700
+Processing by LoginController#refresh as HTML
+  Parameters: {"authenticity_token"=>"bamivJkfAdlyTPq39n7IaDuth5xwu1CfktfAvtOxqYpYy8lTPyL/jeY9cZzYZnyPKsQdj1UAhJgsVwcRUcLFhg=="}
+Redirected to http://localhost:3000/users/home
+Completed 302 Found in 345ms
+
+
+Started GET "/users/home" for 127.0.0.1 at 2019-04-04 11:03:08 -0700
+Processing by UsersController#home as HTML
+  Rendering users/home.html.erb within layouts/application
+  Rendered users/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 50ms (Views: 46.9ms)
+
+
