@@ -3,5 +3,7 @@ class ApplicationController < ActionController::Base
 
   CLIENT_ID = ENV['CLIENT_ID']
   CLIENT_SECRET = ENV['CLIENT_SECRET']
-  REDIRECT_URL = ENV['REDIRECT_URL']
+  REDIRECT_URI = ENV['REDIRECT_URI']
+  OAUTH_URL = ENV['OAUTH_URL']
+  BASE_URL = ENV['BASE_URL']
 end

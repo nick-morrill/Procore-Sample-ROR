@@ -12,10 +12,10 @@ class LoginController < ApplicationController
       "client_id" => CLIENT_ID,
       "client_secret" => CLIENT_SECRET,
       "code" => @authorization_code,
-      "redirect_uri" => REDIRECT_URL
+      "redirect_uri" => REDIRECT_URI
     }
 
-    response = RestClient.post('https://login.procore.com/oauth/token', request.to_json, {content_type: :json, accept: :json})
+    response = RestClient.post(ENV['OAUTH_URL'] +'/oauth/token', request.to_json, {content_type: :json, accept: :json})
       session[:oauth_response] = JSON.parse(response)
 
     redirect_to users_home_path
@@ -29,10 +29,10 @@ class LoginController < ApplicationController
       "client_id" => CLIENT_ID,
       "client_secret" => CLIENT_SECRET,
       "refresh_token" => session[:oauth_response]['refresh_token'],
-      "redirect_uri" => REDIRECT_URL
+      "redirect_uri" => REDIRECT_URI
     }
 
-    response = RestClient.post('https://login.procore.com/oauth/token', request.to_json, {content_type: :json, accept: :json})
+    response = RestClient.post(ENV['OAUTH_URL'] + '/oauth/token', request.to_json, {content_type: :json, accept: :json})
       session[:oauth_response] = JSON.parse(response)
 
     redirect_to users_home_path

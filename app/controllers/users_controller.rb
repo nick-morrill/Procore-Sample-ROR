@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
   def me
-    get_me = RestClient.get("https://api.procore.com/vapid/me",
+    get_me = RestClient.get(ENV['BASE_URL'] +'/vapid/me',
     {"Authorization" => "Bearer #{session[:oauth_response]['access_token']}"})
 
     @me = JSON.parse(get_me)
