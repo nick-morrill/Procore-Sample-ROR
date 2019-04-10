@@ -10306,3 +10306,48 @@ Processing by UsersController#home as HTML
 Completed 200 OK in 50ms (Views: 46.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-04-05 09:55:45 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (86.1ms)
+Completed 200 OK in 1086ms (Views: 1027.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-05 09:55:47 -0700
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 217ms (Views: 214.4ms)
+
+
+Started GET "/login/me?code=3f8c90970ee63e0cb2634b3250742a7073a3da7d560f351a978c426e6f5f06b3" for 127.0.0.1 at 2019-04-05 09:58:24 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/login/me"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
