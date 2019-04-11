@@ -7,16 +7,19 @@ This following steps are instructions to launch and view a simple Ruby on Rails 
 2. Run `bundle install`
 3. Run `bundle exec figaro install`
 4. Installing the figaro gem will create an untracked file: `config/application.yml`
-    * Within this file, configure your application's Client ID, Client Secret, and Redirect URI in order to save these as the application's environment variables:
+
+Within this file, configure your application's Client ID, Client Secret, and Redirect URI in order to save these as the application's environment variables:
+
         * CLIENT_ID: ''
-        CLIENT_SECRET: ''
-        REDIRECT_URL: 'http://localhost:3000/login/callback'
-        OAUTH_URL: ''
-        BASE_URL: ''
+        * CLIENT_SECRET: ''
+        * REDIRECT_URL: 'http://localhost:3000/login/callback'
+        * OAUTH_URL: ''
+        * BASE_URL: ''
 
     * Client ID and Client Secret values are provided when [creating an application](https://developers.procore.com/documentation/new-application) in the Procore Developer Portal. The redirect URI above should be added to your application, which can be done on your application's home page.
     * The BASE_URL and the OAUTH_URL will depend on which environment you're working accessing. If you're working in the production environment, the OAUTH_URL will be https://login.procore.com and the BASE_URL will be https://api.procore.com. For the sandbox environment, both the OAUTH_URL and the BASE_URL should be set to https://sandbox.procore.com.
     * After these values have been configured within the `application.yml` file, make sure to save your changes.
+
 5. Navigate to the directory where the repository was cloned to and launch your Rails server
 6. The landing page will include a button that says, "Sign In to Procore". Click this button and enter your Procore email address/password.
 7. After authenticating with Procore, you will be redirected back to the sample application. This page will include a table containing the first and last five characters of both your access token and your refresh token. In addition, there will be timestamps corresponding to when the access token was generated and when it expires (2 hours after generation).
