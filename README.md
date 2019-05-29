@@ -20,7 +20,7 @@ Within this file, configure your application's Client ID, Client Secret, and Red
     * The BASE_URL and the OAUTH_URL will depend on which environment you're working accessing. If you're working in the production environment, the OAUTH_URL will be https://login.procore.com and the BASE_URL will be https://api.procore.com. For the sandbox environment, both the OAUTH_URL and the BASE_URL should be set to https://sandbox.procore.com.
     * After these values have been configured within the `application.yml` file, make sure to save your changes.
 
-5. Navigate to the directory where the repository was cloned to and launch your Rails server
+5. Navigate to the directory where the repository was cloned to and [launch your Rails server](https://guides.rubyonrails.org/command_line.html#rails-server).
 6. The landing page will include a button that says, "Sign In to Procore". Click this button and enter your Procore email address/password.
 7. After authenticating with Procore, you will be redirected back to the sample application. This page will include a table containing the first and last five characters of both your access token and your refresh token. In addition, there will be timestamps corresponding to when the access token was generated and when it expires (2 hours after generation).
 8. To access the data returned by the [Show User Info](https://developers.procore.com/reference/me) endpoint, click on the "Show User Information" button on the home page.
