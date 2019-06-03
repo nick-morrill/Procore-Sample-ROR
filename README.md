@@ -3,6 +3,8 @@
 ### Setup Instructions
 This following steps are instructions to launch and view a simple Ruby on Rails application that authenticates with Procore's API using the OAuth 2.0 Authorization Code Grant Type flow. The application is configured to access either Procore's production environment or Procore's developer sandbox environment.
 
+THIS REPOSITORY IS FOR TRAINING PURPOSES ONLY. 
+
 1. Clone this repository
 2. Run `bundle install`
 3. Run `bundle exec figaro install`
