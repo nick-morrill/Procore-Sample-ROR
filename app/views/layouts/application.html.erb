@@ -12,8 +12,12 @@
   <body>
     <div class="container">
         <ul class="nav nav-tabs">
-          <li><%= link_to "Sign In", login_index_path %></li>
-          <li><%= link_to "Home", users_home_path %></li>
+          <% if session[:oauth_response] %>
+            <li><%= link_to "Home", users_home_path %></li>
+            <li><%= link_to "Sign Out", login_revoke_path %></li>
+          <% else %>
+            <li><%= link_to "Sign In", login_index_path %></li>
+          <% end %>
         </ul>
 
       <%= yield %>

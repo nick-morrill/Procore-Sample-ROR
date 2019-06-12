@@ -45,4 +45,23 @@ class LoginController < ApplicationController
     # Redirect the user's browser to the intended home page
     redirect_to users_home_path
   end
+
+  def revoke
+    # Populate the request body with the defined parameters from the docs
+    # https://developers.procore.com/reference/authentication#revoke-token
+    request = {
+      client_id: ENV['CLIENT_ID'],
+      client_secret: ENV['CLIENT_SECRET'],
+      token: session[:oauth_response]['access_token']
+    }
+    # Send a request to revoke the access token to Procore and return to the Sign In page.
+    response = RestClient.post(ENV['OAUTH_URL'] + '/oauth/revoke', request.to_json)
+    puts response
+    puts request
+    # Deletes current session to clear out session variables
+    reset_session
+    # the user's browser to the intended home page
+    redirect_to login_index_path
+
+  end
 end
