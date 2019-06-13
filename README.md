@@ -25,7 +25,7 @@ Within this file, configure your application's Client ID, Client Secret, and Red
 5. Navigate to the directory where the repository was cloned to and [launch your Rails server](https://guides.rubyonrails.org/command_line.html#rails-server).
 6. The landing page will include a button that says, "Sign In to Procore". Click this button and enter your Procore email address/password.
 7. After authenticating with Procore, you will be redirected back to the sample application. This page will include a table containing the first and last five characters of both your access token and your refresh token. In addition, there will be timestamps corresponding to when the access token was generated and when it expires (2 hours after generation).
-8. To access the data returned by the [Show User Info](https://developers.procore.com/reference/me) endpoint, click on the "Show User Information" button on the home page. Note, the "name" field will only populate for a user when a 
+8. To access the data returned by the [Show User Info](https://developers.procore.com/reference/me) endpoint, click on the "Show User Information" button on the home page. 
 9. To refresh your access token, click on the "Refresh Access Token" button. Notice that the corresponding values will be updated in the table on the home page.
 
 If you have any questions regarding this application's code or functionality, please reach out to apisupport@procore.com.
