@@ -27,9 +27,9 @@ class LoginController < ApplicationController
 
     rescue RestClient::ExceptionWithResponse
       if session[:oauth_response]
-        redirect_to users_home_path, danger: "Something Went Wrong. Please Refresh your Access Token and Try Again"
+        redirect_to users_home_path, danger: "Something went wrong. Please refresh your access token and try again."
       else
-        redirect_to login_index_path, danger: "Something Went Wrong. Please try again"
+        redirect_to login_index_path, danger: "Something went wrong. Please try again."
       end
     end
 
@@ -54,9 +54,9 @@ class LoginController < ApplicationController
 
     rescue RestClient::ExceptionWithResponse
       if session[:oauth_response]
-        redirect_to users_home_path, danger: "Something Went Wrong. Please Refresh your Access Token and Try Again"
+        redirect_to users_home_path, danger: "Something went wrong. Please refresh your access token and try again."
       else
-        redirect_to login_index_path, danger: "Something Went Wrong. Please try again"
+        redirect_to login_index_path, danger: "Something went wrong. Please try again."
       end
     end
 
@@ -78,9 +78,9 @@ class LoginController < ApplicationController
 
     rescue RestClient::ExceptionWithResponse
       if session[:oauth_response]
-        redirect_to users_home_path, danger: "Something Went Wrong. Please Refresh your Access Token and Try Again"
+        redirect_to users_home_path, danger: "Something went wrong. Please refresh your access token and try again."
       else
-        redirect_to login_index_path, danger: "Something Went Wrong. Please try again"
+        redirect_to login_index_path, danger: "Something went wrong. Please try again."
       end
   end
 end
