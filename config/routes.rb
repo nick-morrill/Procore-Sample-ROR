@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   get 'login/callback'
 
-  post 'login/revoke'
+  get 'login/revoke'
 
   root 'login#index'
 
