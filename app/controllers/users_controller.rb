@@ -8,6 +8,13 @@ class UsersController < ApplicationController
 
     # Store the parsed response in an instance variable
     @me = JSON.parse(get_me)
+
+    rescue RestClient::ExceptionWithResponse
+      if session[:oauth_response]
+        redirect_to users_home_path, danger: "Something went wrong. Please check or refresh your access token and try again."
+      else
+        redirect_to login_index_path, danger: "Something went wrong. Please try again."
+      end
   end
 
   def home
@@ -30,6 +37,12 @@ class UsersController < ApplicationController
     # Fetch the access token from the session variable and store the value in
     # an instance variable
     @refresh_token = session[:oauth_response]['refresh_token']
-  end
 
+    rescue RestClient::ExceptionWithResponse
+      if session[:oauth_response]
+        redirect_to users_home_path, danger: "Something went wrong. Please refresh your access token and try again."
+      else
+        redirect_to login_index_path, danger: "Something went wrong. Please try again."
+    end
+end
 end
