@@ -8,3 +8,8 @@
 !/log/.keep
 !/tmp/.keep
 ./tmp/*
+
+# Ignore Mac-specific system files
+.DS_Store
+.AppleDouble
+.LSOverride

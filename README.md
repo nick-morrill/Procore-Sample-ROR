@@ -14,7 +14,7 @@ Within this file, configure your application's Client ID, Client Secret, and Red
 
         * CLIENT_ID: ''
         * CLIENT_SECRET: ''
-        * REDIRECT_URL: 'http://localhost:3000/login/callback'
+        * REDIRECT_URI: 'http://localhost:3000/login/callback'
         * OAUTH_URL: ''
         * BASE_URL: ''
 
