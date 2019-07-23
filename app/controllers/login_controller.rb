@@ -1,3 +1,4 @@
+# This code is intended to be used **for training purposes only**.
 require 'json'
 require 'rest-client'
 require 'date'
