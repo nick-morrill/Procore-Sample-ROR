@@ -1,3 +1,4 @@
+# This code is intended to be used **for training purposes only**.
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
